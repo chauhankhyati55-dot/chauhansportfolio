@@ -76,11 +76,12 @@ const Footer = () => {
               className="h-10 w-auto mb-6 invert" // Added invert to make logo white
             />
             <p className="text-gray-300 mb-6">
-              WRLDS Technologies provides an end-to-end platform for the creation and deployment of AI-powered smart sensor devices, giving customers 100% ownership while handling the complete technological development.
+              Insight-driven Marketing Analyst with 8+ years of experience transforming complex data into actionable business insights through advanced analytics, visualization, and predictive modeling.
             </p>
             <p className="text-gray-300 mb-6">
-              Hornsgatan 110<br />
-              117 26, Stockholm Sweden
+              Chicago, IL 60616<br />
+              Phone: +1 (203) 823-2161<br />
+              Email: khyatichauhan1818@gmail.com
             </p>
             <div className="flex space-x-4">
               <a 
@@ -95,16 +96,18 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4 text-white">Company</h3>
+            <h3 className="text-lg font-bold mb-4 text-white">Credentials</h3>
             <ul className="space-y-3">
-              <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/careers" className="text-gray-300 hover:text-white transition-colors">Careers</Link></li>
-              <li><Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><span className="text-gray-300">Education:</span></li>
+              <li><span className="text-gray-300 text-sm">MS Business Analytics (4.0 GPA)</span></li>
+              <li><span className="text-gray-300 text-sm">University of New Haven</span></li>
+              <li><span className="text-gray-300 text-sm">AWS Certified Cloud Practitioner</span></li>
+              <li><span className="text-gray-300 text-sm">Google Data Analytics Professional</span></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4 text-white">Get in Touch</h3>
+            <h3 className="text-lg font-bold mb-4 text-white">Connect with Me</h3>
             <form className="space-y-4" onSubmit={handleSubscribe}>
               <div>
                 <input 
@@ -134,7 +137,7 @@ const Footer = () => {
         
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} WRLDS Technologies. All rights reserved.
+            © {new Date().getFullYear()} Khyati Chauhan. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Link to="/privacy-policy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>

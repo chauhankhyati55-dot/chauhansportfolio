@@ -21,10 +21,10 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - Smart Textile Technology" 
-        description="WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring."
+        title="Khyati Chauhan - Marketing Analyst" 
+        description="Insight-driven Marketing Analyst with 8+ years of experience in advanced analytics, data interpretation, and visualization. Expert in Power BI, campaign optimization, and predictive modeling."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
-        keywords={['smart textiles', 'wearable technology', 'textile sensors', 'sports tech', 'safety monitoring', 'performance analytics', 'manufacturing']}
+        keywords={['marketing analyst', 'data analytics', 'power bi', 'campaign optimization', 'marketing analytics', 'business intelligence', 'predictive modeling']}
       />
       <Hero />
       <Features />

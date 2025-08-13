@@ -8,52 +8,41 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "6th SENSE Safety System",
-    brand: "FireCat Group",
-    description: "AI-driven sensor solution integrated into uniforms for law enforcement, military and firefighters, providing real-time vital monitoring and situational awareness in high-risk environments.",
-    tags: ["Safety", "Military", "AI Sensors", "Real-time Monitoring"],
+    title: "Marketing Analyst",
+    brand: "Robinson",
+    description: "Developed predictive models with 85% accuracy and designed interactive Power BI dashboards, increasing campaign ROI by 12% and improving user retention by 15%.",
+    tags: ["Predictive Modeling", "Power BI", "Campaign ROI", "Data Analysis"],
     imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
     isFeatured: true,
-    link: "/projects/firecat",
-    details: `
-      FireCat Group aimed to enhance safety in high-risk environments. WRLDS Technologies provided the 6th SENSE solution with secure real-time data transmission, high-quality sensors resistant to extreme conditions, integrated AI-powered clothing, and a centralized control unit. Features include Man Down Alarm, GPS positioning, vital sign monitoring, and Panic Button. Benefits: life-saving technology, machine learning preventing false alarms, durable hardware with 7-10 year lifespan, washable sensors, and Plug & Play installation with 12-20 hours of operation per charge.
-    `
+    link: "#",
+    details: "Led analytics initiatives analyzing customer behavior and campaign performance with 85% accuracy. Created interactive dashboards enabling faster decisions across 5 regional hubs."
   },
   {
     id: 2,
-    title: "Performance Athletic Footwear",
-    brand: "Global Sports Retail Leader",
-    description: "Smart Footwear R&D aiming to revolutionize development, fitting, and testing of athletic footwear.",
-    tags: ["Sports", "R&D", "Footwear", "Athletic Performance"],
+    title: "Marketing Analyst",
+    brand: "IBM",
+    description: "Built marketing mix models using Python and SPSS, automated ETL pipelines reducing manual effort by 40 hours/month, and decreased customer attrition by 10%.",
+    tags: ["Marketing Mix Models", "Python", "ETL Automation", "Customer Retention"],
     imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
-    link: "/projects/sport-retail"
+    link: "#"
   },
   {
     id: 3,
-    title: "Workwear Climate Control",
-    brand: "European Multinational Textile Producer",
-    description: "Fully integrated temperature controls for professionals working in extreme heat and cold. Modular approach to enable full-body systems.",
-    tags: ["Climate Control", "Workwear", "Temperature Regulation", "Extreme Conditions"],
+    title: "Product Strategy Analyst",
+    brand: "Ekart Logistics",
+    description: "Optimized last-mile delivery using geospatial analytics, increasing on-time delivery by 14% and improving fleet utilization across 50+ distribution hubs.",
+    tags: ["Geospatial Analytics", "Supply Chain", "Performance Optimization", "Logistics"],
     imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
-    link: "/projects/workwear"
+    link: "#"
   },
   {
     id: 4,
-    title: "Ice Hockey Elite Skill Tracker",
-    brand: "Mars Blades",
-    description: "R&D product evaluating data from single IMU embedded in the hockey shoe. Aim: establish motion patterns that lead to ultimate acceleration, speed, and maneuverability.",
-    tags: ["Ice Hockey", "Motion Analysis", "Performance Tracking", "Sports"],
+    title: "Capstone Project",
+    brand: "Corpay Corporation",
+    description: "Led analytics consulting project using Agile methodology, built interactive dashboards, and applied predictive analytics improving revenue forecasting accuracy by 20%.",
+    tags: ["Project Management", "Predictive Analytics", "Revenue Forecasting", "Agile"],
     imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
-    link: "/projects/hockey"
-  },
-  {
-    id: 5,
-    title: "Dog Activity Counter",
-    brand: "UK Insurance Giant",
-    description: "R&D project embedding a step counter in a dog collar. Measures daily activity and sends real-time data to the cloud for veterinary consultancies.",
-    tags: ["Pet Technology", "Insurance", "Activity Tracking", "R&D"],
-    imageUrl: "/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png",
-    link: "/projects/pet-tracker"
+    link: "#"
   }
 ];
 
@@ -130,13 +119,13 @@ const Projects = () => {
       <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className={`text-center mb-10 max-w-3xl mx-auto transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm font-medium">
-            Customer Cases
+            Professional Experience
           </div>
           <h2 className="text-3xl font-bold mb-3">
-            From Textile to Intelligence
+            8+ Years of Analytics Excellence
           </h2>
           <p className="text-gray-600">
-            Explore how our textile sensor technology is revolutionizing multiple industries with intelligent fabric solutions tailored to specific needs.
+            Discover how I've transformed complex data into actionable business insights across multiple industries and companies.
           </p>
           {isMobile && (
             <div className="flex items-center justify-center mt-4 animate-pulse-slow">
