@@ -4,6 +4,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useIsMobile } from "@/hooks/use-mobile";
+import analyticsDashboard from "@/assets/analytics-dashboard.jpg";
+import campaignAnalytics from "@/assets/campaign-analytics.jpg";
+import customerAnalytics from "@/assets/customer-analytics.jpg";
 
 const projects = [
   {
@@ -12,7 +15,7 @@ const projects = [
     brand: "Robinson",
     description: "Developed predictive models with 85% accuracy and designed interactive Power BI dashboards, increasing campaign ROI by 12% and improving user retention by 15%.",
     tags: ["Predictive Modeling", "Power BI", "Campaign ROI", "Data Analysis"],
-    imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
+    imageUrl: analyticsDashboard,
     isFeatured: true,
     link: "#",
     details: "Led analytics initiatives analyzing customer behavior and campaign performance with 85% accuracy. Created interactive dashboards enabling faster decisions across 5 regional hubs."
@@ -23,7 +26,7 @@ const projects = [
     brand: "IBM",
     description: "Built marketing mix models using Python and SPSS, automated ETL pipelines reducing manual effort by 40 hours/month, and decreased customer attrition by 10%.",
     tags: ["Marketing Mix Models", "Python", "ETL Automation", "Customer Retention"],
-    imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
+    imageUrl: campaignAnalytics,
     link: "#"
   },
   {
@@ -32,7 +35,7 @@ const projects = [
     brand: "Ekart Logistics",
     description: "Optimized last-mile delivery using geospatial analytics, increasing on-time delivery by 14% and improving fleet utilization across 50+ distribution hubs.",
     tags: ["Geospatial Analytics", "Supply Chain", "Performance Optimization", "Logistics"],
-    imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
+    imageUrl: customerAnalytics,
     link: "#"
   },
   {
@@ -41,7 +44,7 @@ const projects = [
     brand: "Corpay Corporation",
     description: "Led analytics consulting project using Agile methodology, built interactive dashboards, and applied predictive analytics improving revenue forecasting accuracy by 20%.",
     tags: ["Project Management", "Predictive Analytics", "Revenue Forecasting", "Agile"],
-    imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
+    imageUrl: analyticsDashboard,
     link: "#"
   }
 ];

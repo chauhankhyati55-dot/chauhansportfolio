@@ -11,6 +11,9 @@ import { Progress } from "@/components/ui/progress";
 import { useIsMobile } from '@/hooks/use-mobile';
 import { Button } from "@/components/ui/button";
 import { useScrollHijack } from '@/hooks/useScrollHijack';
+import analyticsDashboard from "@/assets/analytics-dashboard.jpg";
+import campaignAnalytics from "@/assets/campaign-analytics.jpg";
+import customerAnalytics from "@/assets/customer-analytics.jpg";
 
 const Features = () => {
   const featuresRef = useRef<HTMLDivElement>(null);
@@ -26,25 +29,25 @@ const Features = () => {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Data Visualization",
       description: "Expert in Power BI, Tableau, and Looker to create interactive dashboards that transform complex data into clear, actionable insights.",
-      image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
+      image: analyticsDashboard
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Predictive Analytics",
       description: "Advanced modeling using Python, R, and machine learning algorithms to forecast customer behavior and business outcomes with 85% accuracy.",
-      image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
+      image: customerAnalytics
     },
     {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Campaign Optimization",
       description: "A/B testing and marketing mix modeling to maximize ROI, improve conversion rates, and optimize media spend allocation.",
-      image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
+      image: campaignAnalytics
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Business Intelligence",
       description: "Strategic data analysis and reporting that drives decision-making across global teams and supports product lifecycle management.",
-      image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
+      image: analyticsDashboard
     }
   ];
 
@@ -109,15 +112,15 @@ const Features = () => {
   }, []);
 
   const skillCaseStudies = [{
-    image: "/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png",
+    image: analyticsDashboard,
     title: "Campaign Performance Analytics",
     description: "Real-time dashboards tracking KPIs, engagement metrics, and conversion rates enabling data-driven marketing decisions."
   }, {
-    image: "/lovable-uploads/5463c9c5-0946-4280-a14b-17636ff69a98.png",
+    image: customerAnalytics,
     title: "Customer Segmentation",
     description: "Advanced segmentation analysis on multi-million record datasets to identify high-value customer groups and optimize targeting."
   }, {
-    image: "/lovable-uploads/c5f8ee24-9815-4ebe-b65d-6f3d449feb8b.png",
+    image: campaignAnalytics,
     title: "Predictive Modeling",
     description: "Machine learning models for customer lifetime value prediction, churn analysis, and revenue forecasting with proven accuracy."
   }];
