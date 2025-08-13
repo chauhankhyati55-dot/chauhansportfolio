@@ -146,8 +146,8 @@ const TechDetails = () => {
             </div>
             
             <div className="mt-16 pt-8 border-t border-gray-200">
-              <Link to="/development-process" className="inline-flex items-center px-5 py-3 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-all group">
-                Explore Our Development Process
+              <Link to="/blog" className="inline-flex items-center px-5 py-3 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-all group">
+                Explore Marketing Analytics Insights
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
