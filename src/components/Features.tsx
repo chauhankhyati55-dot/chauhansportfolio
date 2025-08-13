@@ -26,28 +26,28 @@ const Features = () => {
 
   const features = [
     {
-      icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
+      icon: <Activity className="w-12 h-12 text-white transition-transform duration-300 transform" />,
       title: "Data Visualization",
       description: "Expert in Power BI, Tableau, and Looker to create interactive dashboards that transform complex data into clear, actionable insights.",
-      image: analyticsDashboard
+      image: "/lovable-uploads/6c6f1e0c-0659-4cf4-b049-320cb535eff3.png"
     },
     {
-      icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Predictive Analytics",
+      icon: <Shield className="w-12 h-12 text-white transition-transform duration-300 transform" />,
+      title: "Predictive Analytics", 
       description: "Advanced modeling using Python, R, and machine learning algorithms to forecast customer behavior and business outcomes with 85% accuracy.",
-      image: customerAnalytics
+      image: "/lovable-uploads/6c6f1e0c-0659-4cf4-b049-320cb535eff3.png"
     },
     {
-      icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
+      icon: <HardHat className="w-12 h-12 text-white transition-transform duration-300 transform" />,
       title: "Campaign Optimization",
       description: "A/B testing and marketing mix modeling to maximize ROI, improve conversion rates, and optimize media spend allocation.",
-      image: campaignAnalytics
+      image: "/lovable-uploads/6c6f1e0c-0659-4cf4-b049-320cb535eff3.png"
     },
     {
-      icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
+      icon: <Zap className="w-12 h-12 text-white transition-transform duration-300 transform" />,
       title: "Business Intelligence",
       description: "Strategic data analysis and reporting that drives decision-making across global teams and supports product lifecycle management.",
-      image: analyticsDashboard
+      image: "/lovable-uploads/6c6f1e0c-0659-4cf4-b049-320cb535eff3.png"
     }
   ];
 
@@ -182,7 +182,7 @@ const Features = () => {
               <div 
                 key={index} 
                 className={cn(
-                  "feature-item rounded-xl overflow-hidden transform transition-all duration-500 relative shadow-lg",
+                  "feature-item rounded-none overflow-hidden transform transition-all duration-700 relative group",
                   isHijacked 
                     ? cn(
                         "absolute inset-0 w-full h-full",
@@ -192,67 +192,86 @@ const Features = () => {
                             ? "opacity-0 -translate-x-full" 
                             : "opacity-0 translate-x-full"
                       )
-                    : "hover:-translate-y-1 h-[280px]"
+                    : "hover:scale-105 h-[320px] bg-gradient-to-br from-gray-900 via-black to-gray-800 border border-gray-700"
                 )}
                 style={{
-                  transitionDelay: isHijacked ? '0ms' : `${index * 100}ms`
+                  transitionDelay: isHijacked ? '0ms' : `${index * 150}ms`
                 }}
                 onMouseEnter={() => !isHijacked && setHoveredFeature(index)} 
                 onMouseLeave={() => !isHijacked && setHoveredFeature(null)}
               >
-                <div className="absolute inset-0 w-full h-full">
-                  <img 
-                    src={feature.image} 
-                    alt={feature.title} 
-                    className={cn(
-                      "w-full h-full object-cover transition-all duration-300",
-                      isHijacked ? "grayscale-0" : "grayscale"
-                    )} 
-                  />
-                  <div className={cn(
-                    "absolute inset-0 transition-opacity duration-300",
-                    isHijacked 
-                      ? "bg-black/40" 
-                      : hoveredFeature === index 
-                        ? "bg-black/50" 
-                        : "bg-black/70"
-                  )}></div>
+                {/* Innovative geometric pattern overlay */}
+                <div className="absolute inset-0 opacity-10">
+                  <div className="absolute top-0 left-0 w-full h-full">
+                    <svg width="100%" height="100%" className="absolute inset-0">
+                      <defs>
+                        <pattern id={`pattern-${index}`} x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                          <path d="M0 40L40 0H20L0 20Z" fill="white" fillOpacity="0.1"/>
+                        </pattern>
+                      </defs>
+                      <rect width="100%" height="100%" fill={`url(#pattern-${index})`}/>
+                    </svg>
+                  </div>
                 </div>
+
+                {/* Animated grid background */}
+                <div className="absolute inset-0 bg-gradient-to-br from-transparent via-gray-800/20 to-transparent animate-pulse"></div>
                 
                 <div className={cn(
-                  "relative z-10 flex flex-col justify-center",
+                  "relative z-10 flex flex-col",
                   isHijacked 
-                    ? "p-16 h-full text-center items-center" 
-                    : "p-6 h-full justify-between"
+                    ? "p-16 h-full text-center items-center justify-center" 
+                    : "p-8 h-full justify-between"
                 )}>
-                  <div className={isHijacked ? "space-y-8" : ""}>
+                  <div className={isHijacked ? "space-y-8" : "space-y-6"}>
+                    {/* Modernized icon container with geometric frame */}
                     <div className={cn(
-                      "inline-block p-3 bg-gray-800/40 backdrop-blur-sm rounded-lg transition-all duration-300 transform",
+                      "relative inline-block transition-all duration-500 transform",
                       isHijacked 
-                        ? "mb-6 scale-150" 
+                        ? "mb-8 scale-150" 
                         : hoveredFeature === index 
-                          ? "mb-4 hover:scale-110" 
-                          : "mb-4"
+                          ? "mb-6 scale-110 rotate-6" 
+                          : "mb-6"
                     )}>
-                      <div className={`transform transition-transform duration-300 ${!isHijacked && hoveredFeature === index ? 'rotate-12' : ''}`}>
-                        {feature.icon}
+                      <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-lg blur-sm"></div>
+                      <div className="relative bg-black/30 backdrop-blur-md border border-white/20 rounded-lg p-4">
+                        <div className={`transform transition-all duration-500 ${!isHijacked && hoveredFeature === index ? 'rotate-12 scale-110' : ''}`}>
+                          {feature.icon}
+                        </div>
                       </div>
+                      {/* Floating elements around icon */}
+                      <div className="absolute -top-1 -right-1 w-2 h-2 bg-white rounded-full animate-ping"></div>
+                      <div className="absolute -bottom-1 -left-1 w-1.5 h-1.5 bg-gray-300 rounded-full animate-pulse"></div>
                     </div>
+
                     <h3 className={cn(
-                      "font-semibold text-white",
-                      isHijacked ? "text-4xl mb-6" : "text-xl mb-2"
+                      "font-bold text-white tracking-tight",
+                      isHijacked ? "text-5xl mb-8" : "text-2xl mb-4"
                     )}>
                       {feature.title}
                     </h3>
+                    
                     <p className={cn(
-                      "text-white/90",
-                      isHijacked ? "text-lg max-w-2xl" : "text-sm"
+                      "text-gray-200 leading-relaxed",
+                      isHijacked ? "text-xl max-w-3xl" : "text-base"
                     )}>
                       {feature.description}
                     </p>
                   </div>
+
                   {!isHijacked && (
-                    <div className={`h-0.5 bg-white/70 mt-3 transition-all duration-500 ${hoveredFeature === index ? 'w-full' : 'w-0'}`}></div>
+                    <>
+                      {/* Progress indicator */}
+                      <div className={`relative mt-6 transition-all duration-700 ${hoveredFeature === index ? 'opacity-100' : 'opacity-0'}`}>
+                        <div className="h-0.5 bg-white/20 rounded-full">
+                          <div className={`h-full bg-gradient-to-r from-white to-gray-300 rounded-full transition-all duration-1000 ${hoveredFeature === index ? 'w-full' : 'w-0'}`}></div>
+                        </div>
+                      </div>
+                      
+                      {/* Corner accent lines */}
+                      <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-white/30 transition-all duration-300 group-hover:border-white/60"></div>
+                      <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-white/30 transition-all duration-300 group-hover:border-white/60"></div>
+                    </>
                   )}
                 </div>
               </div>
