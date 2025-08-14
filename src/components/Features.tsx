@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Activity, Shield, HardHat, Zap, ArrowRight, Box, Truck, Code, CheckCircle, Rocket, Factory, Microchip, Handshake, RefreshCcw, MessageSquare } from "lucide-react";
+import { Activity, Shield, HardHat, Zap, ArrowRight, Box, Truck, Code, CheckCircle, Rocket, Factory, Microchip, Handshake, RefreshCcw, MessageSquare, BarChart, TrendingUp, Target } from "lucide-react";
 import { cn } from '@/lib/utils';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -125,17 +125,17 @@ const Features = () => {
     description: "Machine learning models for customer lifetime value prediction, churn analysis, and revenue forecasting with proven accuracy."
   }];
   const stepFlowItems = [{
-    icon: <Microchip className="h-10 w-10 text-gray-700" />,
-    title: "WRLDS Proprietary Modules",
-    description: "Our core technology components developed in-house"
+    icon: <BarChart className="h-10 w-10 text-gray-700" />,
+    title: "Data Collection & Integration",
+    description: "Comprehensive data gathering from multiple marketing channels and platforms"
   }, {
-    icon: <Factory className="h-10 w-10 text-gray-700" />,
-    title: "Vetted Off-the-Shelf Hardware",
-    description: "Carefully selected components that complement our technology"
+    icon: <TrendingUp className="h-10 w-10 text-gray-700" />,
+    title: "Advanced Analytics & Modeling",
+    description: "Statistical analysis and machine learning models for actionable insights"
   }, {
-    icon: <Handshake className="h-10 w-10 text-gray-700" />,
-    title: "Vetted Production Partners",
-    description: "Expert manufacturing partners for quality and reliability"
+    icon: <Target className="h-10 w-10 text-gray-700" />,
+    title: "Strategy & Implementation",
+    description: "Translating insights into actionable strategies and campaign optimization"
   }];
   const sprintPhases = [{
     name: "Planning",
@@ -357,10 +357,10 @@ const Features = () => {
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
               Our Approach
             </div>
-            <h2 className="text-3xl font-bold mb-4">How our technology works</h2>
+            <h2 className="text-3xl font-bold mb-4">How my analytics process works</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              WRLDS builds hardware and software with proprietary and off-the-shelf modules, 
-              allowing us to develop completely unique solutions at high speed and lower risk.
+              I follow a comprehensive analytics methodology that combines data collection, advanced modeling, 
+              and strategic implementation to deliver actionable business insights and measurable results.
             </p>
           </div>
           
@@ -382,9 +382,9 @@ const Features = () => {
                     <div className="space-y-2">
                       <h4 className="text-sm font-semibold">{item.title}</h4>
                       <p className="text-sm">{item.description}</p>
-                      {index === 0 && <p className="text-xs text-gray-500">Our proprietary technology provides the core foundation of every solution we build.</p>}
-                      {index === 1 && <p className="text-xs text-gray-500">We carefully select the best off-the-shelf components to complement our proprietary technology.</p>}
-                      {index === 2 && <p className="text-xs text-gray-500">Our network of production partners ensures quality manufacturing at scale.</p>}
+                      {index === 0 && <p className="text-xs text-gray-500">Gathering and integrating data from multiple marketing touchpoints, CRM systems, and analytics platforms.</p>}
+                      {index === 1 && <p className="text-xs text-gray-500">Applying statistical methods, machine learning, and predictive modeling to uncover insights and trends.</p>}
+                      {index === 2 && <p className="text-xs text-gray-500">Converting analytical findings into strategic recommendations and implementing optimization strategies.</p>}
                     </div>
                   </HoverCardContent>
                 </HoverCard>)}
