@@ -74,38 +74,38 @@ const Navbar = () => {
                 
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className={cn(isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
-                    Customer Cases
+                    Analytics Projects
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid gap-3 p-4 w-[400px]">
+                    <ul className="grid gap-3 p-4 w-[450px]">
                       <li>
-                        <Link to="/projects/firecat" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">FireCat 6th SENSE</div>
-                          <p className="text-sm text-gray-500">Smart textiles for firefighter safety</p>
+                        <a href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Customer Analytics Dashboard</div>
+                          <p className="text-sm text-gray-500">Comprehensive customer behavior and segmentation analysis</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://app.powerbi.com/groups/93042ebc-8a8e-4d96-aad2-5edf22f9b461/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Campaign Performance Analytics</div>
+                          <p className="text-sm text-gray-500">Marketing campaign ROI and performance tracking</p>
+                        </a>
+                      </li>
+                      <li>
+                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Marketing Attribution Model</div>
+                          <p className="text-sm text-gray-500">Multi-touch attribution analysis for marketing channels</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/projects/sport-retail" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Sports Performance</div>
-                          <p className="text-sm text-gray-500">Advanced tracking for athletes</p>
+                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Conversion Funnel Analysis</div>
+                          <p className="text-sm text-gray-500">Customer journey optimization and conversion tracking</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/projects/workwear" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Workwear Climate Control</div>
-                          <p className="text-sm text-gray-500">Temperature regulation for extreme environments</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/projects/hockey" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Ice Hockey Elite Tracker</div>
-                          <p className="text-sm text-gray-500">Performance tracking for ice hockey</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/projects/pet-tracker" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Pet Activity Counter</div>
-                          <p className="text-sm text-gray-500">Smart collars for pet activity monitoring</p>
+                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">A/B Testing Framework</div>
+                          <p className="text-sm text-gray-500">Statistical testing for marketing optimization</p>
                         </Link>
                       </li>
                     </ul>
