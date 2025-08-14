@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-700">
           <div className="lg:col-span-2">
             <img 
-              src="/src/assets/kc-logo.png" 
+              src="/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png" 
               alt="Khyati Chauhan Logo" 
               className="h-10 w-auto mb-6 invert" // Added invert to make logo white
             />

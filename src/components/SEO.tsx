@@ -21,7 +21,7 @@ const SEO: React.FC<SEOProps> = ({
   description = 'Khyati Chauhan: Marketing Analytics Professional specializing in data-driven insights, customer segmentation, and performance optimization.',
   type = 'website',
   name = 'Khyati Chauhan',
-  imageUrl = '/src/assets/kc-logo.png',
+  imageUrl = '/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png',
   publishDate,
   modifiedDate,
   author,
@@ -73,7 +73,7 @@ const SEO: React.FC<SEOProps> = ({
     '@type': 'Organization',
     name: 'Khyati Chauhan',
     url: 'https://khyatichauhan.com',
-    logo: 'https://khyatichauhan.com/src/assets/kc-logo.png',
+    logo: 'https://khyatichauhan.com/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png',
     description: 'Marketing Analytics Professional specializing in data-driven insights',
     contactPoint: {
       '@type': 'ContactPoint',
@@ -112,7 +112,7 @@ const SEO: React.FC<SEOProps> = ({
       name: 'Khyati Chauhan',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://khyatichauhan.com/src/assets/kc-logo.png',
+        url: 'https://khyatichauhan.com/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png',
         width: 512,
         height: 512
       },
