@@ -2,7 +2,7 @@ import { ArrowRight, Code, Cpu, Layers, MessageSquare, BarChart, Target, ChartBa
 import { useIsMobile } from "@/hooks/use-mobile";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import conferencePresentationBg from "@/assets/conference-presentation-bg.jpg";
+import marketingDashboard from "@/assets/marketing-dashboard-bg.jpg";
 
 const Hero = () => {
   const isMobile = useIsMobile();
@@ -52,13 +52,13 @@ const Hero = () => {
             loop 
             playsInline
             className="w-full h-full object-cover opacity-70"
-            poster={conferencePresentationBg}
+            poster={marketingDashboard}
           >
-            <source src="/marketing-analytics-video.mp4" type="video/mp4" />
+            <source src="/business-meeting-bg.mp4" type="video/mp4" />
             {/* Fallback image if video fails to load */}
             <img 
-              src={conferencePresentationBg}
-              alt="Conference Presentation Background" 
+              src={marketingDashboard}
+              alt="Marketing Analyst Dashboard" 
               className={`w-full h-full object-cover opacity-70 ${isMobile ? 'object-right' : 'object-center'}`} 
             />
           </video>
