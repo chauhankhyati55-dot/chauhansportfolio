@@ -355,7 +355,7 @@ const Features = () => {
         <div className="w-full px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-              Our Approach
+              My Approach
             </div>
             <h2 className="text-3xl font-bold mb-4">How my analytics process works</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">

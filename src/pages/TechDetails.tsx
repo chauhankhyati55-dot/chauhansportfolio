@@ -104,7 +104,7 @@ const TechDetails = () => {
             }}>
                 <div className="flex items-center gap-2 mb-4">
                   <Code className="w-5 h-5 text-gray-700" />
-                  <h2 className="text-2xl font-bold">Our Approach</h2>
+                  <h2 className="text-2xl font-bold">My Approach</h2>
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">

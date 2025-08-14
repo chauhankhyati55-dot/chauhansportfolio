@@ -79,7 +79,7 @@ const Footer = () => {
               Insight-driven Marketing Analyst with 8+ years of experience transforming complex data into actionable business insights through advanced analytics, visualization, and predictive modeling.
             </p>
             <p className="text-gray-300 mb-6">
-              Chicago, IL 60616<br />
+              West Haven, Connecticut<br />
               Phone: +1 (203) 823-2161<br />
               Email: khyatichauhan1818@gmail.com
             </p>
