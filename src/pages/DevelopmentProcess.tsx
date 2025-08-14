@@ -16,29 +16,29 @@ const DevelopmentProcess = () => {
   // Process component logic
   const processes = [{
     id: 1,
-    title: "Textile Sensor Design",
-    description: "We begin by designing custom textile sensors specifically for your industry and use case, selecting appropriate conductive materials and sensor types.",
-    steps: ["Industry-specific requirement analysis", "Sensor type and material selection", "Prototype sensor development", "Initial testing and calibration"]
+    title: "Data Discovery & Requirements",
+    description: "I begin by understanding your business objectives, data sources, and key performance indicators to establish clear analytics parameters and goals.",
+    steps: ["Business requirement analysis", "Data source identification and assessment", "KPI definition and mapping", "Analytics scope and timeline planning"]
   }, {
     id: 2,
-    title: "Garment Integration",
-    description: "Our engineering team seamlessly integrates sensors into clothing and footwear while maintaining comfort, durability, and washability.",
-    steps: ["Ergonomic placement optimization", "Non-intrusive integration techniques", "Durability and washability testing", "Comfort and user experience validation"]
+    title: "Data Collection & Integration",
+    description: "I gather and integrate data from multiple marketing channels, CRM systems, and analytics platforms to create a comprehensive dataset.",
+    steps: ["Multi-channel data extraction", "Data cleaning and validation", "Integration and normalization", "Quality assurance and testing"]
   }, {
     id: 3,
-    title: "AI & Data Analytics",
-    description: "We develop specialized algorithms that transform textile sensor data into actionable insights unique to your industry requirements.",
-    steps: ["Industry-specific algorithm development", "ML model training with domain data", "Real-time analytics implementation", "Insight delivery optimization"]
+    title: "Analytics & Modeling",
+    description: "I develop specialized statistical models and machine learning algorithms that transform raw data into actionable business insights.",
+    steps: ["Exploratory data analysis", "Statistical modeling and testing", "Machine learning implementation", "Model validation and optimization"]
   }, {
     id: 4,
-    title: "Production & Certification",
-    description: "We handle manufacturing, quality control, and ensure all textile sensor products meet relevant industry standards and certifications.",
-    steps: ["Textile manufacturing partner selection", "Quality assurance processes", "Industry-specific certification procurement", "Initial production supervision"]
+    title: "Visualization & Reporting",
+    description: "I create compelling dashboards and reports that translate complex analytics into clear, actionable insights for stakeholders.",
+    steps: ["Dashboard design and development", "Interactive visualization creation", "Automated reporting setup", "Stakeholder training and documentation"]
   }, {
     id: 5,
-    title: "Deployment & Support",
-    description: "We provide comprehensive training, implementation assistance, and ongoing support to ensure successful adoption and continuous improvement.",
-    steps: ["User training and onboarding", "Data interpretation guidance", "Performance monitoring", "Continuous improvement iterations"]
+    title: "Implementation & Optimization",
+    description: "I provide ongoing support, performance monitoring, and continuous optimization to ensure sustained analytics value and improvement.",
+    steps: ["Strategy implementation guidance", "Performance monitoring setup", "Regular optimization reviews", "Continuous improvement iterations"]
   }];
   useEffect(() => {
     processSectionsRef.current = processes.map((_, i) => processSectionsRef.current[i] || null);
@@ -122,12 +122,12 @@ const DevelopmentProcess = () => {
               Back to Home
             </Link>
             
-            <h1 className="text-4xl font-bold mb-8">Our Structured Development Process</h1>
+            <h1 className="text-4xl font-bold mb-8">My Analytics Methodology</h1>
             
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-12">
-                We've refined our development methodology to minimize risk and maximize innovation, 
-                ensuring your textile sensor project moves efficiently from concept to reality.
+                I've refined my analytics methodology to minimize risk and maximize business impact, 
+                ensuring your marketing analytics project moves efficiently from data to actionable insights.
               </p>
               
               {/* From Textile to Intelligence Process Section */}
@@ -167,27 +167,27 @@ const DevelopmentProcess = () => {
               </div>
               
               <div className="bg-gray-50 p-8 rounded-lg my-12 border border-gray-100">
-                <h3 className="text-xl font-semibold mb-4">Our Development Principles</h3>
+                <h3 className="text-xl font-semibold mb-4">My Analytics Principles</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Rapid iteration cycles for continuous improvement</span>
+                    <span>Data-driven decision making with statistical rigor</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Transparent communication throughout the development process</span>
+                    <span>Transparent communication of findings and limitations</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Modular architecture allowing for flexible and scalable solutions</span>
+                    <span>Scalable analytics frameworks for growing businesses</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Risk mitigation strategies built into every phase</span>
+                    <span>Actionable insights that drive measurable business results</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Focus on user experience and practical functionality</span>
+                    <span>Focus on ROI and practical implementation</span>
                   </li>
                 </ul>
               </div>
@@ -196,8 +196,8 @@ const DevelopmentProcess = () => {
             </div>
             
             <div className="mt-12 pt-8 border-t border-gray-200">
-              <Link to="/tech-details" className="inline-flex items-center px-6 py-3 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-all group">
-                Explore Our Technology
+              <Link to="/blog" className="inline-flex items-center px-6 py-3 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-all group">
+                View My Analytics Insights
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
