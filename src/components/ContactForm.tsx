@@ -82,7 +82,7 @@ const ContactForm = () => {
         from_name: emailData.name,
         from_email: emailData.email,
         message: emailData.message,
-        to_name: 'WRLDS Team', // Adding recipient name parameter
+        to_name: 'Khyati Chauhan', // Adding recipient name parameter
         reply_to: emailData.email // Keeping reply_to for compatibility
       };
       
@@ -225,7 +225,7 @@ const ContactForm = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600 mb-2">For general inquiries:</p>
-              <a href="mailto:info@wrlds.com" className="text-blue-500 hover:underline">hello@wrlds.com</a>
+              <a href="mailto:khyatichauhan1818@gmail.com" className="text-blue-500 hover:underline">khyatichauhan1818@gmail.com</a>
               <p className="text-gray-600 mt-2 mb-2">
             </p>
             </div>

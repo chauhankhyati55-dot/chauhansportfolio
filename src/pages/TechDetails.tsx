@@ -108,8 +108,8 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  At WRLDS, we've developed a systematic approach to creating smart textile solutions that combines technical innovation with practical implementation. 
-                  Our comprehensive development process ensures that every project moves efficiently from concept to market-ready product.
+                  As a Marketing Analytics Professional, I've developed a systematic approach to creating data-driven solutions that combine technical innovation with practical implementation. 
+                  My comprehensive analytics process ensures that every project moves efficiently from data collection to actionable business insights.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
