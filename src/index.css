@@ -278,3 +278,9 @@
 .animate-pulse-slow {
   animation: pulse-slow 4s ease-in-out infinite;
 }
+
+/* Mobile touch targets */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}

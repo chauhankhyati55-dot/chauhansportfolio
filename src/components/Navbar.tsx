@@ -164,40 +164,37 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu - Reduced height and simplified */}
-      <div className={cn("md:hidden transition-all duration-300 overflow-hidden w-full", isMenuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0")}>
-        <div className={cn("px-3 pt-2 pb-3 space-y-1 shadow-sm overflow-y-auto max-h-80", isScrolled ? "bg-white" : "bg-black")}>
-          <Link to="/" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+      {/* Mobile Navigation Menu - Improved mobile compatibility */}
+      <div className={cn("md:hidden transition-all duration-300 overflow-hidden w-full", isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0")}>
+        <div className={cn("px-4 pt-3 pb-4 space-y-2 shadow-lg overflow-y-auto max-h-96", isScrolled ? "bg-white border-t border-gray-100" : "bg-black border-t border-gray-800")}>
+          <Link to="/" className={cn("block px-4 py-3 rounded-lg text-base font-medium touch-target", isScrolled ? "text-gray-700 hover:bg-gray-50 active:bg-gray-100" : "text-gray-200 hover:bg-gray-900 active:bg-gray-800")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
             Home
           </Link>
           
-          <Link to="/about" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+          <Link to="/about" className={cn("block px-4 py-3 rounded-lg text-base font-medium touch-target", isScrolled ? "text-gray-700 hover:bg-gray-50 active:bg-gray-100" : "text-gray-200 hover:bg-gray-900 active:bg-gray-800")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
             About Khyati
           </Link>
           
-          {/* Simplified Customer Cases - no dropdown */}
-          <Link to="/projects/firecat" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
-            setIsMenuOpen(false);
-            window.scrollTo(0, 0);
-          }}>
-            Customer Cases
-          </Link>
+          {/* Simplified Analytics Projects - scroll to section */}
+          <button onClick={() => scrollToSection('projects')} className={cn("block w-full text-left px-4 py-3 rounded-lg text-base font-medium touch-target", isScrolled ? "text-gray-700 hover:bg-gray-50 active:bg-gray-100" : "text-gray-200 hover:bg-gray-900 active:bg-gray-800")}>
+            Analytics Projects
+          </button>
           
           {/* Simplified Learn More - no dropdown */}
-          <Link to="/tech-details" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+          <Link to="/tech-details" className={cn("block px-4 py-3 rounded-lg text-base font-medium touch-target", isScrolled ? "text-gray-700 hover:bg-gray-50 active:bg-gray-100" : "text-gray-200 hover:bg-gray-900 active:bg-gray-800")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
             Learn More
           </Link>
           
-          <Link to="/blog" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+          <Link to="/blog" className={cn("block px-4 py-3 rounded-lg text-base font-medium touch-target", isScrolled ? "text-gray-700 hover:bg-gray-50 active:bg-gray-100" : "text-gray-200 hover:bg-gray-900 active:bg-gray-800")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
@@ -205,7 +202,7 @@ const Navbar = () => {
           </Link>
           
           
-          <button onClick={() => scrollToSection('contact')} className={cn("block w-full text-left px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 bg-gray-200 hover:bg-gray-300" : "text-white bg-gray-700 hover:bg-gray-600")}>
+          <button onClick={() => scrollToSection('contact')} className={cn("block w-full text-left px-4 py-3 rounded-lg text-base font-medium touch-target bg-gray-100", isScrolled ? "text-gray-700 bg-gray-200 hover:bg-gray-300 active:bg-gray-400" : "text-white bg-gray-700 hover:bg-gray-600 active:bg-gray-500")}>
             Contact
           </button>
         </div>
