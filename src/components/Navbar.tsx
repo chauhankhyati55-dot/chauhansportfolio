@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png" alt="Khyati Chauhan Logo" className={cn("h-8 w-auto", isScrolled ? "" : "brightness-0 invert")} />
+              <img src="/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png" alt="Khyati Chauhan Logo" className={cn("h-12 w-auto", isScrolled ? "" : "brightness-0 invert")} />
             </Link>
           </div>
           

@@ -73,7 +73,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png" 
               alt="Khyati Chauhan Logo" 
-              className="h-10 w-auto mb-6 invert" // Added invert to make logo white
+              className="h-14 w-auto mb-6 invert" // Made logo bigger
             />
             <p className="text-gray-300 mb-6">
               Insight-driven Marketing Analyst with 8+ years of experience transforming complex data into actionable business insights through advanced analytics, visualization, and predictive modeling.

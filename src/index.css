@@ -51,7 +51,8 @@
   }
 
   body {
-    @apply bg-white text-foreground font-space;
+    @apply bg-white text-foreground;
+    font-family: 'Space Grotesk', sans-serif;
   }
 }
 
