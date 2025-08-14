@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
     date: 'January 15, 2025',
     author: 'Khyati Chauhan',
     category: 'Analytics',
-    imageUrl: '/src/assets/campaign-roi-analytics.jpg',
+    imageUrl: '/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png',
     keywords: [
       'marketing analytics',
       'campaign ROI',
@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
     date: 'January 10, 2025',
     author: 'Khyati Chauhan',
     category: 'Customer Analytics',
-    imageUrl: '/src/assets/customer-segmentation-analytics.jpg',
+    imageUrl: '/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png',
     keywords: [
       'customer segmentation',
       'churn analysis',
@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
     date: 'January 5, 2025',
     author: 'Khyati Chauhan',
     category: 'Data Visualization',
-    imageUrl: '/src/assets/powerbi-dashboard-design.jpg',
+    imageUrl: '/lovable-uploads/30473baa-85f4-4931-aad9-c722ae7a4918.png',
     keywords: [
       'Power BI',
       'data visualization',
