@@ -38,7 +38,7 @@ const FloatingContactButton = () => {
       onClick={scrollToContact}
       className="fixed bottom-6 right-6 z-50 bg-gray-800 hover:bg-gray-700 text-white rounded-full p-3 shadow-lg hover:shadow-xl transition-all"
       size="icon"
-      aria-label="Contact Us"
+      aria-label="Contact"
     >
       <MessageSquare className="h-6 w-6" />
     </Button>
