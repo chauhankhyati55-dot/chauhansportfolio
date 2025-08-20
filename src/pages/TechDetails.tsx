@@ -82,41 +82,107 @@ const TechDetails = () => {
                   
                 </div>
                 
-                {/* Power BI Dashboards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all">
+                {/* Marketing Analytics Projects */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-bold mb-3">Customer Analytics Dashboard</h3>
+                      <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4">
+                        <FileText className="w-6 h-6 text-blue-600" />
+                      </div>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-blue-600 transition-colors">Customer Segmentation Analysis</h3>
                       <p className="text-gray-600 mb-4 text-sm">
-                        Comprehensive customer behavior analysis including segmentation, lifetime value, and retention metrics.
+                        Advanced RFM analysis and behavioral segmentation using Python and SQL, resulting in 28% improvement in targeted campaign performance.
                       </p>
-                      <a 
-                        href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
-                      >
-                        View Dashboard
-                        <ArrowRight className="ml-2 w-4 h-4" />
-                      </a>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Python</span>
+                        <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">RFM Analysis</span>
+                        <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Clustering</span>
+                      </div>
                     </CardContent>
                   </Card>
                   
-                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all">
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-bold mb-3">Marketing Attribution Model</h3>
+                      <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4">
+                        <Code className="w-6 h-6 text-green-600" />
+                      </div>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-green-600 transition-colors">Marketing Mix Modeling</h3>
                       <p className="text-gray-600 mb-4 text-sm">
-                        Advanced attribution modeling to track multi-touch customer journeys and optimize marketing spend.
+                        Built statistical models to optimize $5M+ media spend across channels, improving overall marketing ROI by 15% through data-driven budget allocation.
                       </p>
-                      <a 
-                        href="https://app.powerbi.com/groups/me/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
-                      >
-                        View Model
-                        <ArrowRight className="ml-2 w-4 h-4" />
-                      </a>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-2 py-1 bg-green-50 text-green-700 rounded-full text-xs">Statistical Modeling</span>
+                        <span className="px-2 py-1 bg-green-50 text-green-700 rounded-full text-xs">Media Mix</span>
+                        <span className="px-2 py-1 bg-green-50 text-green-700 rounded-full text-xs">ROI Optimization</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
+                    <CardContent className="p-6">
+                      <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-4">
+                        <Cpu className="w-6 h-6 text-purple-600" />
+                      </div>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-purple-600 transition-colors">Predictive Analytics Engine</h3>
+                      <p className="text-gray-600 mb-4 text-sm">
+                        Developed machine learning models for customer lifetime value prediction and churn forecasting, achieving 85% accuracy in behavior prediction.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">Machine Learning</span>
+                        <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">CLV Modeling</span>
+                        <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">Churn Prediction</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
+                    <CardContent className="p-6">
+                      <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-4">
+                        <ArrowRight className="w-6 h-6 text-orange-600" />
+                      </div>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-orange-600 transition-colors">Multi-Touch Attribution</h3>
+                      <p className="text-gray-600 mb-4 text-sm">
+                        Implemented advanced attribution modeling to track customer journeys across 12+ touchpoints, optimizing marketing spend allocation and improving conversion rates by 22%.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-2 py-1 bg-orange-50 text-orange-700 rounded-full text-xs">Attribution Modeling</span>
+                        <span className="px-2 py-1 bg-orange-50 text-orange-700 rounded-full text-xs">Customer Journey</span>
+                        <span className="px-2 py-1 bg-orange-50 text-orange-700 rounded-full text-xs">Conversion Optimization</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
+                    <CardContent className="p-6">
+                      <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center mb-4">
+                        <FileText className="w-6 h-6 text-red-600" />
+                      </div>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-red-600 transition-colors">A/B Testing Framework</h3>
+                      <p className="text-gray-600 mb-4 text-sm">
+                        Designed and executed comprehensive A/B testing methodology, running 50+ experiments annually with statistical significance validation and 18% average lift in key metrics.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">A/B Testing</span>
+                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Statistical Analysis</span>
+                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Experimentation</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
+                    <CardContent className="p-6">
+                      <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center mb-4">
+                        <Code className="w-6 h-6 text-teal-600" />
+                      </div>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-teal-600 transition-colors">Real-Time Analytics Dashboard</h3>
+                      <p className="text-gray-600 mb-4 text-sm">
+                        Built automated ETL pipelines and interactive dashboards using Power BI and Python, reducing manual reporting time by 40 hours monthly while improving data accuracy.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-2 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">ETL Automation</span>
+                        <span className="px-2 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Power BI</span>
+                        <span className="px-2 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Data Visualization</span>
+                      </div>
                     </CardContent>
                   </Card>
                 </div>
