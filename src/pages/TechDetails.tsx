@@ -42,7 +42,7 @@ const TechDetails = () => {
           }} transition={{
             duration: 0.5
           }} className="text-3xl sm:text-4xl font-bold mb-6">
-              Technical Deep Dive
+              Marketing Analytics Portfolio
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -54,7 +54,7 @@ const TechDetails = () => {
               duration: 0.5,
               delay: 0.2
             }} className="text-base sm:text-lg text-gray-600 mb-12">
-                Explore the technical details behind our smart textile sensor technology and learn how our system architecture enables rapid development and deployment.
+                Explore my comprehensive marketing analytics work including advanced Power BI dashboards, attribution modeling, and data-driven insights that have driven measurable business results.
               </motion.p>
               
               {/* System Architecture Section */}
@@ -69,12 +69,11 @@ const TechDetails = () => {
             }} className="mb-16">
                 <div className="flex items-center gap-2 mb-4">
                   <FileText className="w-5 h-5 text-gray-700" />
-                  <h2 className="text-2xl font-bold">System Architecture</h2>
+                  <h2 className="text-2xl font-bold">Power BI Dashboards & Analytics</h2>
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  Our platform uses a three-tier architecture connecting physical devices to our cloud services and user applications. 
-                  The diagram below illustrates how data flows through our system, from sensor collection to user-facing applications.
+                  Comprehensive marketing analytics dashboards built in Power BI, showcasing customer behavior analysis, attribution modeling, and campaign performance metrics.
                 </p>
 
                 {/* Progress bar showing flow */}
@@ -83,12 +82,44 @@ const TechDetails = () => {
                   
                 </div>
                 
-                {/* Product Platform Architecture Diagram */}
-                <Card className="bg-white rounded-lg mb-10 border border-gray-200 shadow-sm">
-                  <CardContent className="p-4 lg:p-6">
-                    <ProductPlatform />
-                  </CardContent>
-                </Card>
+                {/* Power BI Dashboards */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all">
+                    <CardContent className="p-6">
+                      <h3 className="text-xl font-bold mb-3">Customer Analytics Dashboard</h3>
+                      <p className="text-gray-600 mb-4 text-sm">
+                        Comprehensive customer behavior analysis including segmentation, lifetime value, and retention metrics.
+                      </p>
+                      <a 
+                        href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
+                      >
+                        View Dashboard
+                        <ArrowRight className="ml-2 w-4 h-4" />
+                      </a>
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all">
+                    <CardContent className="p-6">
+                      <h3 className="text-xl font-bold mb-3">Marketing Attribution Model</h3>
+                      <p className="text-gray-600 mb-4 text-sm">
+                        Advanced attribution modeling to track multi-touch customer journeys and optimize marketing spend.
+                      </p>
+                      <a 
+                        href="https://app.powerbi.com/groups/me/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
+                      >
+                        View Model
+                        <ArrowRight className="ml-2 w-4 h-4" />
+                      </a>
+                    </CardContent>
+                  </Card>
+                </div>
               </motion.div>
               
               {/* Our Approach Section */}
@@ -108,23 +139,23 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  As a Marketing Analytics Professional, I've developed a systematic approach to creating data-driven solutions that combine technical innovation with practical implementation. 
-                  My comprehensive analytics process ensures that every project moves efficiently from data collection to actionable business insights.
+                  My analytical methodology combines advanced statistical modeling with business acumen to deliver actionable insights. 
+                  From data collection to strategic recommendations, I ensure every analytics initiative drives measurable business impact.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                   {[{
-                  title: "Discovery",
+                  title: "Data Collection & Analysis",
                   icon: <Cpu className="w-5 h-5 text-gray-700" />,
-                  description: "We begin with thorough market research and requirements gathering to understand your specific needs and opportunities."
+                  description: "Comprehensive data gathering from multiple sources including web analytics, CRM systems, and marketing platforms for holistic insights."
                 }, {
-                  title: "Design & Prototyping",
+                  title: "Modeling & Visualization",
                   icon: <Code className="w-5 h-5 text-gray-700" />,
-                  description: "Our teams create initial designs and functional prototypes that allow for early testing and iteration."
+                  description: "Advanced predictive modeling and interactive dashboard creation using Power BI, Python, and statistical techniques."
                 }, {
-                  title: "Development & Testing",
+                  title: "Implementation & Optimization",
                   icon: <FileText className="w-5 h-5 text-gray-700" />,
-                  description: "We rigorously develop and test all components to ensure they meet performance and reliability standards."
+                  description: "Strategic recommendations implementation with continuous monitoring and optimization to maximize ROI and business impact."
                 }].map((phase, i) => <motion.div key={phase.title} initial={{
                   opacity: 0,
                   y: 10
