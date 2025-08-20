@@ -102,7 +102,7 @@ const WhyWrlds = () => {
               <BarChart className="w-8 h-8 text-gray-700" />
             </div>
             <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={8} suffix="+" /> Years
+              <AnimatedCounter end={6} suffix="+" /> Years
             </h3>
             <p className="text-gray-700">Experience in marketing analytics, delivering measurable results across multiple industries and global teams</p>
           </motion.div>
