@@ -79,7 +79,7 @@ const Navbar = () => {
                   <NavigationMenuContent>
                     <ul className="grid gap-3 p-4 w-[450px]">
                       <li>
-                        <a href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://app.powerbi.com/groups/me/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Customer Analytics Dashboard</div>
                           <p className="text-sm text-gray-500">Comprehensive customer behavior and segmentation analysis</p>
                         </a>
@@ -91,7 +91,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="https://app.powerbi.com/groups/me/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Marketing Attribution Model</div>
                           <p className="text-sm text-gray-500">Multi-touch attribution analysis for marketing channels</p>
                         </a>
