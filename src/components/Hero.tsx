@@ -71,7 +71,7 @@ const Hero = () => {
               <motion.h1 className="banner-title text-white" variants={itemVariants}>Khyati Chauhan</motion.h1>
               <motion.h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mt-2" variants={itemVariants}>Marketing Analyst</motion.h2>
               <motion.p className="banner-subtitle text-gray-300 mt-4 sm:mt-6" variants={itemVariants}>
-                Transforming complex data into actionable insights that drive measurable business outcomes through advanced analytics and strategic visualization.
+                Strategic Marketing Analyst at Netflix with 6+ years of experience in advanced analytics, omnichannel performance, and AI-driven insights that deliver measurable business outcomes.
               </motion.p>
               <motion.div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8 justify-center items-center" variants={itemVariants}>
                 <button 

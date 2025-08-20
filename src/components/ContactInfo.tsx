@@ -14,7 +14,7 @@ const ContactInfo = () => {
             Let's Connect
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Ready to leverage data-driven insights for your marketing strategy? Let's discuss how my analytics expertise can drive your business growth.
+            Strategic Marketing Analyst at Netflix with 6+ years of experience in advanced analytics, omnichannel performance, and AI-driven insights. Ready to discuss how data can drive your business growth.
           </p>
         </div>
 
@@ -30,13 +30,17 @@ const ContactInfo = () => {
               <p className="text-gray-600 mb-2">Marketing Analyst</p>
               <p className="text-gray-500 text-sm mb-4">West Haven, CT</p>
               <div className="flex flex-col space-y-3">
-                <a href="mailto:khyatichauhan1818@gmail.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="mailto:chauhankhyati55@gmail.com" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Mail className="w-5 h-5 mr-2" />
-                  khyatichauhan1818@gmail.com
+                  chauhankhyati55@gmail.com
                 </a>
-                <a href="tel:+12038232161" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="tel:+12039367666" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Phone className="w-5 h-5 mr-2" />
-                  +1 (203) 823-2161
+                  +1 (203) 936-7666
+                </a>
+                <a href="https://www.linkedin.com/in/khyatim03/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-blue-600">
+                  <Linkedin className="w-5 h-5 mr-2" />
+                  LinkedIn Profile
                 </a>
               </div>
             </div>

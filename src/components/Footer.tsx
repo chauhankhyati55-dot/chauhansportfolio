@@ -76,16 +76,16 @@ const Footer = () => {
               className="h-14 w-auto mb-6 invert" // Made logo bigger
             />
             <p className="text-gray-300 mb-6">
-              Insight-driven Marketing Analyst with 8+ years of experience transforming complex data into actionable business insights through advanced analytics, visualization, and predictive modeling.
+              Strategic Marketing Analyst at Netflix with 6+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in transforming complex data into actionable business strategies.
             </p>
             <p className="text-gray-300 mb-6">
               West Haven, Connecticut<br />
-              Phone: +1 (203) 823-2161<br />
-              Email: khyatichauhan1818@gmail.com
+              Phone: +1 (203) 936-7666<br />
+              Email: chauhankhyati55@gmail.com
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/khyatim03/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 transition-colors hover:bg-gray-700 hover:text-white"
@@ -100,9 +100,10 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><span className="text-gray-300">Education:</span></li>
               <li><span className="text-gray-300 text-sm">MS Business Analytics (4.0 GPA)</span></li>
-              <li><span className="text-gray-300 text-sm">University of New Haven</span></li>
-              <li><span className="text-gray-300 text-sm">AWS Certified Cloud Practitioner</span></li>
-              <li><span className="text-gray-300 text-sm">Google Data Analytics Professional</span></li>
+              <li><span className="text-gray-300 text-sm">University of New Haven (2023-2025)</span></li>
+              <li><span className="text-gray-300 text-sm">30% Dean's Scholarship</span></li>
+              <li><span className="text-gray-300 text-sm">AWS Cloud Practitioner</span></li>
+              <li><span className="text-gray-300 text-sm">Google Analytics (GA4) Certified</span></li>
             </ul>
           </div>
           
