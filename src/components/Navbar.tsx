@@ -91,10 +91,10 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://app.powerbi.com/groups/me/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Marketing Attribution Model</div>
                           <p className="text-sm text-gray-500">Multi-touch attribution analysis for marketing channels</p>
-                        </Link>
+                        </a>
                       </li>
                       <li>
                         <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
