@@ -12,13 +12,13 @@ const projects = [
   {
     id: 1,
     title: "Marketing Analyst",
-    brand: "Robinson",
-    description: "Developed predictive models with 85% accuracy and designed interactive Power BI dashboards, increasing campaign ROI by 12% and improving user retention by 15%.",
-    tags: ["Predictive Modeling", "Power BI", "Campaign ROI", "Data Analysis"],
+    brand: "Netflix",
+    description: "Leading advanced analytics initiatives for omnichannel performance optimization, A/B testing, and marketing mix modeling to drive strategic business decisions.",
+    tags: ["Web Analytics", "MMM", "A/B Testing", "Attribution Modeling"],
     imageUrl: analyticsDashboard,
     isFeatured: true,
     link: "#",
-    details: "Led analytics initiatives analyzing customer behavior and campaign performance with 85% accuracy. Created interactive dashboards enabling faster decisions across 5 regional hubs."
+    details: "Driving data-informed decision-making with focus on customer journey optimization, retention rates, and marketing efficiency through scalable analytics strategies."
   },
   {
     id: 2,
