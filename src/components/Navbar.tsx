@@ -85,21 +85,27 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <Link to="/tech-details" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://app.powerbi.com/groups/93042ebc-8a8e-4d96-aad2-5edf22f9b461/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Campaign Performance Analytics</div>
-                          <p className="text-sm text-gray-500">Marketing campaign ROI analysis and performance optimization framework</p>
-                        </Link>
+                          <p className="text-sm text-gray-500">Marketing campaign ROI and performance tracking</p>
+                        </a>
                       </li>
                       <li>
-                        <a href="https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Conversion Funnel Analysis</div>
-                          <p className="text-sm text-gray-500">Customer journey optimization using advanced statistical modeling</p>
+                        <a href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Marketing Attribution Model</div>
+                          <p className="text-sm text-gray-500">Multi-touch attribution analysis for marketing channels</p>
                         </a>
                       </li>
                       <li>
                         <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Conversion Funnel Analysis</div>
+                          <p className="text-sm text-gray-500">Customer journey optimization and conversion tracking</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">A/B Testing Framework</div>
-                          <p className="text-sm text-gray-500">Statistical experimentation methodology and results analysis</p>
+                          <p className="text-sm text-gray-500">Statistical testing for marketing optimization</p>
                         </Link>
                       </li>
                     </ul>
