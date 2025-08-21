@@ -1,5 +1,5 @@
 
-import { ArrowLeft, ArrowRight, FileText, Code, Cpu } from 'lucide-react';
+import { ArrowLeft, ArrowRight, FileText, Code, Cpu, Github, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import ProductPlatform from '@/components/ProductPlatform';
@@ -97,9 +97,16 @@ const TechDetails = () => {
                       <p className="text-gray-500 mb-4 text-xs italic">
                         Tools: SQL · Tableau · Excel
                       </p>
-                      <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm">
-                        View Dashboard
-                      </a>
+                      <div className="flex items-center gap-4">
+                        <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors text-sm">
+                          <Github className="w-4 h-4" />
+                          GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/khyatim03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors text-sm">
+                          <Linkedin className="w-4 h-4" />
+                          LinkedIn
+                        </a>
+                      </div>
                     </CardContent>
                   </Card>
                   
@@ -116,9 +123,16 @@ const TechDetails = () => {
                       <p className="text-gray-500 mb-4 text-xs italic">
                         Tools: Python · Pandas · Seaborn
                       </p>
-                      <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm">
-                        View Case Study
-                      </a>
+                      <div className="flex items-center gap-4">
+                        <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors text-sm">
+                          <Github className="w-4 h-4" />
+                          GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/khyatim03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors text-sm">
+                          <Linkedin className="w-4 h-4" />
+                          LinkedIn
+                        </a>
+                      </div>
                     </CardContent>
                   </Card>
 
@@ -135,9 +149,16 @@ const TechDetails = () => {
                       <p className="text-gray-500 mb-4 text-xs italic">
                         Tools: Python · SciPy · Tableau
                       </p>
-                      <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm">
-                        View Analysis
-                      </a>
+                      <div className="flex items-center gap-4">
+                        <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-purple-600 transition-colors text-sm">
+                          <Github className="w-4 h-4" />
+                          GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/khyatim03" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-purple-600 transition-colors text-sm">
+                          <Linkedin className="w-4 h-4" />
+                          LinkedIn
+                        </a>
+                      </div>
                     </CardContent>
                   </Card>
 
