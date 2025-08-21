@@ -1,0 +1,119 @@
+---
+title: "Advanced Marketing Analytics Projects in R"
+author: "Khyati Chauhan"
+output: html_document
+---
+
+# 🎬 Project 1: Multi-Touch Attribution (Markov Model)
+
+This project simulates multi-channel user journeys and applies attribution models
+to understand which marketing channels contribute most to conversions.
+
+```{r}
+# Install if needed: install.packages("ChannelAttribution"); install.packages("reshape2")
+library(ChannelAttribution)
+library(reshape2)
+
+# Simulated user journey data
+set.seed(42)
+df <- data.frame(
+  path = c("Google > YouTube > Direct",
+           "Facebook > Direct",
+           "Email > Google > Direct",
+           "YouTube > Direct",
+           "Organic > Email > Direct",
+           "Google > Facebook > Direct",
+           "Email > Direct",
+           "App > Direct",
+           "YouTube > Email > Direct",
+           "Google > Organic > Direct"),
+  conv = sample(50:200, 10),
+  null = 0
+)
+
+# Apply Markov Attribution Model
+markov_model <- markov_model(df, var_path="path", var_conv="conv", var_null="null", order=1)
+print(markov_model)
+```
+
+---
+
+# 🎯 Project 2: Conversion Funnel + Predictive Modeling
+
+This project builds a predictive model to estimate purchase probability from funnel data.
+
+```{r}
+# Install if needed: install.packages("caret"); install.packages("pROC"); install.packages("randomForest")
+library(caret)
+library(pROC)
+library(randomForest)
+
+# Simulated funnel data with user features
+set.seed(42)
+funnel <- data.frame(
+  age = sample(18:60, 500, replace=TRUE),
+  sessions = rpois(500, 5),
+  region = sample(c("US","EU","APAC"), 500, replace=TRUE),
+  signup = rbinom(500, 1, 0.6),
+  add_to_cart = rbinom(500, 1, 0.4),
+  purchase = rbinom(500, 1, 0.3)
+)
+
+# Train/Test split
+trainIndex <- createDataPartition(funnel$purchase, p = .7, list = FALSE)
+train <- funnel[trainIndex,]
+test  <- funnel[-trainIndex,]
+
+# Random Forest model
+model <- randomForest(as.factor(purchase) ~ age + sessions + region + signup + add_to_cart, data=train)
+pred <- predict(model, test, type="prob")[,2]
+
+# ROC Curve
+roc_curve <- roc(test$purchase, pred)
+plot(roc_curve, col="blue")
+auc(roc_curve)
+```
+
+---
+
+# 🧪 Project 3: Bayesian A/B Testing
+
+This project demonstrates Bayesian A/B testing to evaluate if a new variant outperforms the old one.
+
+```{r}
+# Bayesian A/B Test (without bayesAB)
+set.seed(42)
+
+# Data: conversions
+A <- rbinom(500, 1, 0.12)
+B <- rbinom(500, 1, 0.16)
+
+# Priors: Beta(1,1) uniform
+alpha_prior <- 1
+beta_prior <- 1
+
+# Posterior distributions
+posterior_A <- rbeta(10000, sum(A) + alpha_prior, length(A) - sum(A) + beta_prior)
+posterior_B <- rbeta(10000, sum(B) + alpha_prior, length(B) - sum(B) + beta_prior)
+
+# Probability that B > A
+prob_B_better <- mean(posterior_B > posterior_A)
+
+hist(posterior_A, col=rgb(1,0,0,0.5), xlim=c(0,0.3), main="Posterior Distributions", xlab="Conversion Rate")
+hist(posterior_B, col=rgb(0,0,1,0.5), add=TRUE)
+legend("topright", c("A","B"), fill=c(rgb(1,0,0,0.5), rgb(0,0,1,0.5)))
+
+cat("Probability that B is better than A:", prob_B_better, "\\n")
+
+
+```
+
+---
+
+# ✅ Conclusion
+
+- **Markov Model Attribution** reveals hidden influential channels beyond last-click.  
+- **Predictive Modeling** helps identify which users are most likely to convert.  
+- **Bayesian A/B Testing** provides more intuitive probability-based insights than p-values.  
+
+These projects demonstrate advanced marketing analytics capabilities combining **R, statistics, and machine learning**.
