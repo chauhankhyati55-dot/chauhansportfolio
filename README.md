@@ -1,69 +1,40 @@
-# Welcome to your Lovable project
+# 📊 Advanced Marketing Analytics Projects  
 
-## Project info
+Welcome to my portfolio of **Marketing Analytics Projects**, built with **R, Python, and visualization tools**. These projects demonstrate expertise in **A/B testing, attribution modeling, funnel analysis, and data-driven decision making** for modern marketing.  
 
-**URL**: https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa90cceb6
+---
 
-## How can I edit this code?
+## 🔹 Projects Included  
 
-There are several ways of editing your application.
+### 1. **Bayesian A/B Testing**  
+- Simulated user engagement experiment.  
+- Compared conversion rates between two marketing campaigns (A vs B).  
+- Used **Bayesian methods** to estimate posterior distributions and probability of improvement.  
+- 📈 Visualization: Posterior distributions of Campaign A vs B.  
 
-**Use Lovable**
+### 2. **Customer Funnel Analysis**  
+- Analyzed customer journey stages (Acquisition → Activation → Retention).  
+- Identified drop-off points and recommended optimizations.  
+- 📊 Delivered actionable insights for retention strategies.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa90cceb6) and start prompting.
+### 3. **Marketing Attribution Modeling**  
+- Implemented **multi-touch attribution** models (First-Touch, Last-Touch, Linear).  
+- Compared ROI and media spend efficiency across channels.  
+- Insights used to reallocate marketing budgets effectively.  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack  
+- **Languages**: R, Python  
+- **Visualization**: ggplot2, matplotlib, Tableau/Power BI (where applicable)  
+- **Statistical Methods**: Bayesian inference, attribution models, regression analysis  
+- **Deployment**: GitHub Pages (HTML reports)  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 👩‍💻 About Me  
+I’m **Khyati Chauhan**, a Marketing Data Analyst passionate about turning raw data into **business growth insights**. With expertise in **SQL, Python, R, and Tableau**, I specialize in **campaign optimization, data storytelling, and ROI analysis**.  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa90cceb6) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+✨ Feel free to explore the code, clone the repo, or connect with me on LinkedIn!  
