@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Linkedin, Phone } from 'lucide-react';
+import { Mail, Linkedin, Phone, Github } from 'lucide-react';
 
 const ContactInfo = () => {
   return (
@@ -41,6 +41,10 @@ const ContactInfo = () => {
                 <a href="https://www.linkedin.com/in/khyatim03/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Linkedin className="w-5 h-5 mr-2" />
                   LinkedIn Profile
+                </a>
+                <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-blue-600">
+                  <Github className="w-5 h-5 mr-2" />
+                  GitHub Projects
                 </a>
               </div>
             </div>
