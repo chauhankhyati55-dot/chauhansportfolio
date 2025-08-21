@@ -157,54 +157,14 @@ const TechDetails = () => {
                       <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center mb-4">
                         <FileText className="w-6 h-6 text-red-600" />
                       </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-red-600 transition-colors">Campaign Performance Analytics</h3>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-red-600 transition-colors">A/B Testing Framework</h3>
                       <p className="text-gray-600 mb-4 text-sm">
-                        <strong>Problem:</strong> Measuring the effectiveness of multi-channel campaigns can be challenging without consolidated insights.
-                        <br /><strong>Approach:</strong> Combined data from Google Ads, Meta Ads, and Email using SQL. Built an interactive Tableau dashboard to monitor ROI and channel attribution.
-                        <br /><strong>Impact:</strong> Optimized budget allocation, improving conversion rate by 15%.
+                        Designed and executed comprehensive A/B testing methodology, running 50+ experiments annually with statistical significance validation and 18% average lift in key metrics.
                       </p>
                       <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Multi-Channel</span>
-                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Tableau</span>
-                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">ROI Analysis</span>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
-                    <CardContent className="p-6">
-                      <div className="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center mb-4">
-                        <ArrowRight className="w-6 h-6 text-indigo-600" />
-                      </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-indigo-600 transition-colors">Conversion Funnel Analysis</h3>
-                      <p className="text-gray-600 mb-4 text-sm">
-                        <strong>Problem:</strong> Businesses often struggle to understand where users drop off in the conversion journey.
-                        <br /><strong>Approach:</strong> Created a funnel visualization using Python (Pandas, Seaborn). Conducted cohort analysis to track stage-wise performance.
-                        <br /><strong>Impact:</strong> Identified a 40% drop-off at sign-up stage; simplification increased completions by 12%.
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs">Python</span>
-                        <span className="px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs">Cohort Analysis</span>
-                        <span className="px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs">Funnel Optimization</span>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
-                    <CardContent className="p-6">
-                      <div className="w-12 h-12 rounded-lg bg-pink-100 flex items-center justify-center mb-4">
-                        <Code className="w-6 h-6 text-pink-600" />
-                      </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-pink-600 transition-colors">A/B Testing Framework</h3>
-                      <p className="text-gray-600 mb-4 text-sm">
-                        <strong>Problem:</strong> Marketing teams risk poor decisions without evidence-based testing.
-                        <br /><strong>Approach:</strong> Designed an A/B testing process using Python (SciPy, StatsModels). Visualized experiment results in Tableau for leadership reporting.
-                        <br /><strong>Impact:</strong> Winning variant improved email open rates by 18% and sign-ups by 10%.
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-pink-50 text-pink-700 rounded-full text-xs">A/B Testing</span>
-                        <span className="px-2 py-1 bg-pink-50 text-pink-700 rounded-full text-xs">Statistical Analysis</span>
-                        <span className="px-2 py-1 bg-pink-50 text-pink-700 rounded-full text-xs">Python</span>
+                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">A/B Testing</span>
+                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Statistical Analysis</span>
+                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Experimentation</span>
                       </div>
                     </CardContent>
                   </Card>
