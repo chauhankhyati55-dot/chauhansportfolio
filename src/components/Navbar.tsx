@@ -85,28 +85,10 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <div className="block p-3 space-y-1 rounded-md">
-                          <div className="font-medium">Campaign Performance Analytics</div>
-                          <p className="text-sm text-gray-500">Marketing campaign ROI and performance tracking</p>
-                        </div>
-                      </li>
-                      <li>
                         <a href="https://app.powerbi.com/groups/me/reports/3bfb9103-c0fd-43b5-aad1-6293f3fa6eb1/ad7424f2fef47d5dd729?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Marketing Attribution Model</div>
                           <p className="text-sm text-gray-500">Multi-touch attribution analysis for marketing channels</p>
                         </a>
-                      </li>
-                      <li>
-                        <div className="block p-3 space-y-1 rounded-md">
-                          <div className="font-medium">Conversion Funnel Analysis</div>
-                          <p className="text-sm text-gray-500">Customer journey optimization and conversion tracking</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="block p-3 space-y-1 rounded-md">
-                          <div className="font-medium">A/B Testing Framework</div>
-                          <p className="text-sm text-gray-500">Statistical testing for marketing optimization</p>
-                        </div>
                       </li>
                     </ul>
                   </NavigationMenuContent>
