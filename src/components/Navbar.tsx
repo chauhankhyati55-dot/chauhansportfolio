@@ -85,9 +85,9 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="https://github.com/microsoft/powerbi-visuals-sampledata" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://app.powerbi.com/groups/93042ebc-8a8e-4d96-aad2-5edf22f9b461/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Campaign Performance Analytics</div>
-                          <p className="text-sm text-gray-500">Marketing campaign ROI and performance tracking dashboard</p>
+                          <p className="text-sm text-gray-500">Marketing campaign ROI and performance tracking</p>
                         </a>
                       </li>
                       <li>
@@ -97,16 +97,16 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Conversion Funnel Analysis</div>
-                          <p className="text-sm text-gray-500">E-commerce conversion optimization analysis project</p>
-                        </a>
+                          <p className="text-sm text-gray-500">Customer journey optimization and conversion tracking</p>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://github.com/topics/ab-testing" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <Link to="/blog" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">A/B Testing Framework</div>
-                          <p className="text-sm text-gray-500">Statistical testing methodology and implementation</p>
-                        </a>
+                          <p className="text-sm text-gray-500">Statistical testing for marketing optimization</p>
+                        </Link>
                       </li>
                     </ul>
                   </NavigationMenuContent>
