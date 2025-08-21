@@ -97,7 +97,7 @@ const TechDetails = () => {
                       <p className="text-gray-500 mb-4 text-xs italic">
                         Tools: SQL · Tableau · Excel
                       </p>
-                      <a href="#" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm">
+                      <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm">
                         View Dashboard
                       </a>
                     </CardContent>
@@ -116,7 +116,7 @@ const TechDetails = () => {
                       <p className="text-gray-500 mb-4 text-xs italic">
                         Tools: Python · Pandas · Seaborn
                       </p>
-                      <a href="#" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm">
+                      <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm">
                         View Case Study
                       </a>
                     </CardContent>
@@ -135,7 +135,7 @@ const TechDetails = () => {
                       <p className="text-gray-500 mb-4 text-xs italic">
                         Tools: Python · SciPy · Tableau
                       </p>
-                      <a href="#" className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm">
+                      <a href="https://github.com/chauhankhyati55-dot/Marketing_Analytics" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm">
                         View Analysis
                       </a>
                     </CardContent>
