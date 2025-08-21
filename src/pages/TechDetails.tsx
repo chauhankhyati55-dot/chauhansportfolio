@@ -84,54 +84,60 @@ const TechDetails = () => {
                 
                 {/* Marketing Analytics Projects */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+                  {/* Campaign Performance Analytics */}
                   <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
                     <CardContent className="p-6">
                       <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4">
                         <FileText className="w-6 h-6 text-blue-600" />
                       </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-blue-600 transition-colors">Customer Segmentation Analysis</h3>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-blue-600 transition-colors">Campaign Performance Analytics</h3>
                       <p className="text-gray-600 mb-4 text-sm">
-                        Advanced RFM analysis and behavioral segmentation using Python and SQL, resulting in 28% improvement in targeted campaign performance.
+                        Analyzed multi-channel marketing campaigns across paid search, social, and email. Created an interactive dashboard highlighting CTR, CPC, ROI, and attribution insights.
                       </p>
-                      <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Python</span>
-                        <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">RFM Analysis</span>
-                        <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Clustering</span>
-                      </div>
+                      <p className="text-gray-500 mb-4 text-xs italic">
+                        Tools: SQL · Tableau · Excel
+                      </p>
+                      <a href="#" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm">
+                        View Dashboard
+                      </a>
                     </CardContent>
                   </Card>
                   
+                  {/* Conversion Funnel Analysis */}
                   <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
                     <CardContent className="p-6">
                       <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4">
                         <Code className="w-6 h-6 text-green-600" />
                       </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-green-600 transition-colors">Marketing Mix Modeling</h3>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-green-600 transition-colors">Conversion Funnel Analysis</h3>
                       <p className="text-gray-600 mb-4 text-sm">
-                        Built statistical models to optimize $5M+ media spend across channels, improving overall marketing ROI by 15% through data-driven budget allocation.
+                        Mapped the full customer journey from acquisition to purchase, identifying key drop-off points in the funnel. Suggested actionable fixes that improved sign-up completion rates.
                       </p>
-                      <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-green-50 text-green-700 rounded-full text-xs">Statistical Modeling</span>
-                        <span className="px-2 py-1 bg-green-50 text-green-700 rounded-full text-xs">Media Mix</span>
-                        <span className="px-2 py-1 bg-green-50 text-green-700 rounded-full text-xs">ROI Optimization</span>
-                      </div>
+                      <p className="text-gray-500 mb-4 text-xs italic">
+                        Tools: Python · Pandas · Seaborn
+                      </p>
+                      <a href="#" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm">
+                        View Case Study
+                      </a>
                     </CardContent>
                   </Card>
 
+                  {/* A/B Testing Framework */}
                   <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
                     <CardContent className="p-6">
                       <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-4">
                         <Cpu className="w-6 h-6 text-purple-600" />
                       </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-purple-600 transition-colors">Predictive Analytics Engine</h3>
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-purple-600 transition-colors">A/B Testing Framework</h3>
                       <p className="text-gray-600 mb-4 text-sm">
-                        Developed machine learning models for customer lifetime value prediction and churn forecasting, achieving 85% accuracy in behavior prediction.
+                        Developed a testing framework for subject lines and landing page designs. Measured impact using statistical significance testing and visualized results for leadership.
                       </p>
-                      <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">Machine Learning</span>
-                        <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">CLV Modeling</span>
-                        <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">Churn Prediction</span>
-                      </div>
+                      <p className="text-gray-500 mb-4 text-xs italic">
+                        Tools: Python · SciPy · Tableau
+                      </p>
+                      <a href="#" className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm">
+                        View Analysis
+                      </a>
                     </CardContent>
                   </Card>
 
@@ -148,23 +154,6 @@ const TechDetails = () => {
                         <span className="px-2 py-1 bg-orange-50 text-orange-700 rounded-full text-xs">Attribution Modeling</span>
                         <span className="px-2 py-1 bg-orange-50 text-orange-700 rounded-full text-xs">Customer Journey</span>
                         <span className="px-2 py-1 bg-orange-50 text-orange-700 rounded-full text-xs">Conversion Optimization</span>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all group">
-                    <CardContent className="p-6">
-                      <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center mb-4">
-                        <FileText className="w-6 h-6 text-red-600" />
-                      </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-red-600 transition-colors">A/B Testing Framework</h3>
-                      <p className="text-gray-600 mb-4 text-sm">
-                        Designed and executed comprehensive A/B testing methodology, running 50+ experiments annually with statistical significance validation and 18% average lift in key metrics.
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">A/B Testing</span>
-                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Statistical Analysis</span>
-                        <span className="px-2 py-1 bg-red-50 text-red-700 rounded-full text-xs">Experimentation</span>
                       </div>
                     </CardContent>
                   </Card>
