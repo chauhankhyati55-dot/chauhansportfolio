@@ -54,7 +54,7 @@ const Hero = () => {
             className="w-full h-full object-cover opacity-70"
             poster={businessOfficeBg}
           >
-            <source src="/marketing-analytics-video.mp4" type="video/mp4" />
+            <source src="/analytics-meeting-hero.mp4" type="video/mp4" />
             {/* Fallback image if video fails to load */}
             <img 
               src={businessOfficeBg}
