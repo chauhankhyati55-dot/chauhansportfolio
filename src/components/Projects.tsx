@@ -4,9 +4,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useIsMobile } from "@/hooks/use-mobile";
-import analyticsDashboard from "@/assets/analytics-dashboard.jpg";
-import campaignAnalytics from "@/assets/campaign-analytics.jpg";
-import customerAnalytics from "@/assets/customer-analytics.jpg";
+import netflixAnalytics from "@/assets/netflix-analytics.jpg";
+import ibmAnalytics from "@/assets/ibm-analytics.jpg";
+import londonHydroAnalytics from "@/assets/london-hydro-analytics.jpg";
+import corpayAnalytics from "@/assets/corpay-analytics.jpg";
 
 const projects = [
   {
@@ -15,7 +16,7 @@ const projects = [
     brand: "Netflix",
     description: "Leading advanced analytics initiatives for omnichannel performance optimization, A/B testing, and marketing mix modeling to drive strategic business decisions.",
     tags: ["Web Analytics", "MMM", "A/B Testing", "Attribution Modeling"],
-    imageUrl: analyticsDashboard,
+    imageUrl: netflixAnalytics,
     isFeatured: true,
     link: "#",
     details: "Driving data-informed decision-making with focus on customer journey optimization, retention rates, and marketing efficiency through scalable analytics strategies."
@@ -26,7 +27,7 @@ const projects = [
     brand: "IBM",
     description: "Built marketing mix models using Python and SPSS, automated ETL pipelines reducing manual effort by 40 hours/month, and decreased customer attrition by 10%.",
     tags: ["Marketing Mix Models", "Python", "ETL Automation", "Customer Retention"],
-    imageUrl: campaignAnalytics,
+    imageUrl: ibmAnalytics,
     link: "#"
   },
   {
@@ -35,7 +36,7 @@ const projects = [
     brand: "London Hydro LLC",
     description: "Optimized last-mile delivery using geospatial analytics, increasing on-time delivery by 14% and improving fleet utilization across 50+ distribution hubs.",
     tags: ["Geospatial Analytics", "Supply Chain", "Performance Optimization", "Logistics"],
-    imageUrl: customerAnalytics,
+    imageUrl: londonHydroAnalytics,
     link: "#"
   },
   {
@@ -44,7 +45,7 @@ const projects = [
     brand: "Corpay Corporation",
     description: "Led analytics consulting project using Agile methodology, built interactive dashboards, and applied predictive analytics improving revenue forecasting accuracy by 20%.",
     tags: ["Project Management", "Predictive Analytics", "Revenue Forecasting", "Agile"],
-    imageUrl: analyticsDashboard,
+    imageUrl: corpayAnalytics,
     link: "#"
   }
 ];
