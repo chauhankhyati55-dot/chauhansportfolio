@@ -32,7 +32,7 @@ const projects = [
   {
     id: 3,
     title: "Product Strategy Analyst",
-    brand: "Ekart Logistics",
+    brand: "London Hydro LLC",
     description: "Optimized last-mile delivery using geospatial analytics, increasing on-time delivery by 14% and improving fleet utilization across 50+ distribution hubs.",
     tags: ["Geospatial Analytics", "Supply Chain", "Performance Optimization", "Logistics"],
     imageUrl: customerAnalytics,
