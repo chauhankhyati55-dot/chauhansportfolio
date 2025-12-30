@@ -79,7 +79,7 @@ const Navbar = () => {
                   <NavigationMenuContent>
                     <ul className="grid gap-3 p-4 w-[450px]">
                       <li>
-                        <a href="https://app.powerbi.com/groups/me/reports/ce16edfa-f64e-47f0-861b-0290596e119f/ReportSectionb621f12070647be09138?experience=power-bi" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://eb5c9111-b27a-4ec3-82d5-b81e9d57286a.plotly.app" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Customer Analytics Dashboard</div>
                           <p className="text-sm text-gray-500">Comprehensive customer behavior and segmentation analysis</p>
                         </a>
