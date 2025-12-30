@@ -76,7 +76,7 @@ const Footer = () => {
               className="h-14 w-auto mb-6 invert" // Made logo bigger
             />
             <p className="text-gray-300 mb-6">
-              Strategic Marketing Analyst at Netflix with 6+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in transforming complex data into actionable business strategies.
+              Strategic Marketing Analyst at Netflix with 4+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in transforming complex data into actionable business strategies.
             </p>
             <p className="text-gray-300 mb-6">
               West Haven, Connecticut<br />

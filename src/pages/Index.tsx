@@ -22,7 +22,7 @@ const Index = () => {
     <PageLayout>
       <SEO 
         title="Khyati Chauhan - Marketing Analyst" 
-        description="Strategic Marketing Analyst at Netflix with 6+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in web analytics, Marketing Mix Modeling, and data visualization."
+        description="Strategic Marketing Analyst at Netflix with 4+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in web analytics, Marketing Mix Modeling, and data visualization."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
         keywords={['marketing analyst', 'data analytics', 'power bi', 'campaign optimization', 'marketing analytics', 'business intelligence', 'predictive modeling']}
       />

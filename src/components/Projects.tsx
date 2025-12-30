@@ -125,7 +125,7 @@ const Projects = () => {
             Professional Experience
           </div>
           <h2 className="text-3xl font-bold mb-3">
-            6+ Years of Analytics Excellence
+            4+ Years of Analytics Excellence
           </h2>
           <p className="text-gray-600">
             Discover how I've transformed complex data into actionable business insights across multiple industries and companies.
