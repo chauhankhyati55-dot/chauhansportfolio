@@ -14,7 +14,7 @@ const ContactInfo = () => {
             Let's Connect
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Strategic Marketing Analyst at Netflix with 6+ years of experience in advanced analytics, omnichannel performance, and AI-driven insights. Ready to discuss how data can drive your business growth.
+            Strategic Marketing Analyst at Netflix with 4+ years of experience in advanced analytics, omnichannel performance, and AI-driven insights. Ready to discuss how data can drive your business growth.
           </p>
         </div>
 
