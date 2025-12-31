@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ContentSection } from '@/data/blogPosts';
-import { DollarSign, Users, TrendingUp, Shield, Zap, Settings, Database } from 'lucide-react';
+import { DollarSign, Users, TrendingUp, TrendingDown, Shield, Zap, Settings, Database, Target, Clock, LayoutGrid, Square } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
@@ -9,14 +9,19 @@ interface EnhancedBlogContentProps {
   content: ContentSection[];
 }
 
-const iconMap = {
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   DollarSign,
   Users,
   TrendingUp,
+  TrendingDown,
   Shield,
   Zap,
   Settings,
-  Database
+  Database,
+  Target,
+  Clock,
+  LayoutGrid,
+  Square
 };
 
 const EnhancedBlogContent: React.FC<EnhancedBlogContentProps> = ({ content }) => {
