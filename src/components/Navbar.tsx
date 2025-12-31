@@ -80,8 +80,8 @@ const Navbar = () => {
                     <ul className="grid gap-3 p-4 w-[450px]">
                       <li>
                         <a href="https://eb5c9111-b27a-4ec3-82d5-b81e9d57286a.plotly.app" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Customer Analytics Dashboard</div>
-                          <p className="text-sm text-gray-500">Comprehensive customer behavior and segmentation analysis</p>
+                          <div className="font-medium">Customer Retention and Churn Risk Dashboard</div>
+                          <p className="text-sm text-gray-500">Predictive analytics for customer retention and churn risk assessment</p>
                         </a>
                       </li>
                       <li>
