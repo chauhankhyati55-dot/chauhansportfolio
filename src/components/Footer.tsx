@@ -103,14 +103,27 @@ const Footer = () => {
           
           <div>
             <h3 className="text-lg font-bold mb-4 text-white">Credentials</h3>
-            <ul className="space-y-3">
-              <li><span className="text-gray-300">Education:</span></li>
-              <li><span className="text-gray-300 text-sm">MS Business Analytics (4.0 GPA)</span></li>
-              <li><span className="text-gray-300 text-sm">University of New Haven (2023-2025)</span></li>
-              <li><span className="text-gray-300 text-sm">30% Dean's Scholarship</span></li>
-              <li><span className="text-gray-300 text-sm">AWS Cloud Practitioner</span></li>
-              <li><span className="text-gray-300 text-sm">Google Analytics (GA4) Certified</span></li>
-            </ul>
+            <div className="space-y-3">
+              <div className="flex items-start gap-2">
+                <span className="text-lg">🎓</span>
+                <div>
+                  <p className="text-white text-sm font-medium">MS Business Analytics</p>
+                  <p className="text-gray-400 text-xs">UNH • 4.0 GPA • 2023-25</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-lg">🏆</span>
+                <p className="text-gray-300 text-sm">30% Dean's Scholarship</p>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-lg">☁️</span>
+                <p className="text-gray-300 text-sm">AWS Cloud Practitioner</p>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-lg">📊</span>
+                <p className="text-gray-300 text-sm">Google Analytics (GA4)</p>
+              </div>
+            </div>
           </div>
           
           <div>
