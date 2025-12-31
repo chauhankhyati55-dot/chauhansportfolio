@@ -73,16 +73,22 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/6614c2c2-455f-4571-94db-de2eee70fb29.png" 
               alt="Khyati Chauhan Logo" 
-              className="h-14 w-auto mb-6 invert" // Made logo bigger
+              className="h-14 w-auto mb-6 invert"
             />
-            <p className="text-gray-300 mb-6">
-              Strategic Marketing Analyst at Netflix with 4+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in transforming complex data into actionable business strategies.
+            <p className="text-gray-300 mb-4 text-sm">
+              Marketing Analyst @ Netflix | 4+ Years in Analytics
             </p>
-            <p className="text-gray-300 mb-6">
-              West Haven, Connecticut<br />
-              Phone: +1 (203) 936-7666<br />
-              Email: chauhankhyati55@gmail.com
-            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">Web Analytics</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">Predictive Modeling</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">A/B Testing</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">MMM</span>
+            </div>
+            <div className="text-gray-400 text-sm space-y-1 mb-4">
+              <p>📍 West Haven, CT</p>
+              <p>📞 +1 (203) 936-7666</p>
+              <p>✉️ chauhankhyati55@gmail.com</p>
+            </div>
             <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/in/khyatim03/" 
