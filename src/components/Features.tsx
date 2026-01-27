@@ -11,9 +11,9 @@ import { Progress } from "@/components/ui/progress";
 import { useIsMobile } from '@/hooks/use-mobile';
 import { Button } from "@/components/ui/button";
 import { useScrollHijack } from '@/hooks/useScrollHijack';
-import analyticsDashboard from "@/assets/analytics-dashboard.jpg";
-import campaignAnalytics from "@/assets/campaign-analytics.jpg";
-import customerAnalytics from "@/assets/customer-analytics.jpg";
+import marketingAnalyticsDashboard from "@/assets/marketing-analytics-dashboard.jpg";
+import customerSegmentationDashboard from "@/assets/customer-segmentation-dashboard.jpg";
+import predictiveAnalyticsDashboard from "@/assets/predictive-analytics-dashboard.jpg";
 
 const Features = () => {
   const featuresRef = useRef<HTMLDivElement>(null);
@@ -112,15 +112,15 @@ const Features = () => {
   }, []);
 
   const skillCaseStudies = [{
-    image: analyticsDashboard,
+    image: marketingAnalyticsDashboard,
     title: "Campaign Performance Analytics",
     description: "Real-time dashboards tracking KPIs, engagement metrics, and conversion rates enabling data-driven marketing decisions."
   }, {
-    image: customerAnalytics,
+    image: customerSegmentationDashboard,
     title: "Customer Segmentation",
     description: "Advanced segmentation analysis on multi-million record datasets to identify high-value customer groups and optimize targeting."
   }, {
-    image: campaignAnalytics,
+    image: predictiveAnalyticsDashboard,
     title: "Predictive Modeling",
     description: "Machine learning models for customer lifetime value prediction, churn analysis, and revenue forecasting with proven accuracy."
   }];
