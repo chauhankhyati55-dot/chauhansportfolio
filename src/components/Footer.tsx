@@ -87,7 +87,7 @@ const Footer = () => {
             <div className="text-gray-400 text-sm space-y-1 mb-4">
               <p>📍 West Haven, CT</p>
               <p>📞 +1 (203) 936-7666</p>
-              <p>✉️ chauhankhyati55@gmail.com</p>
+              <p>✉️ kmchauhan32@gmail.com</p>
             </div>
             <div className="flex space-x-4">
               <a 
