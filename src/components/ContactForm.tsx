@@ -225,7 +225,7 @@ const ContactForm = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600 mb-2">For general inquiries:</p>
-              <a href="mailto:khyatichauhan1818@gmail.com" className="text-blue-500 hover:underline">khyatichauhan1818@gmail.com</a>
+              <a href="mailto:kmchauhan32@gmail.com" className="text-blue-500 hover:underline">kmchauhan32@gmail.com</a>
               <p className="text-gray-600 mt-2 mb-2">
             </p>
             </div>
