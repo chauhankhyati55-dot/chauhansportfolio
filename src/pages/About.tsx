@@ -106,6 +106,10 @@ const About = () => {
                     A/B testing, and marketing attribution modeling. I've helped companies increase their marketing ROI 
                     by identifying high-performing channels and optimizing budget allocation.
                   </p>
+                  <p className="text-gray-600 mb-4">
+                    Passionate about innovative storytelling through data, I transform complex analytics into compelling 
+                    narratives that resonate with stakeholders and drive strategic action.
+                  </p>
                   <p className="text-gray-600">
                     Currently based in West Haven, CT, I continue to help businesses leverage data analytics to make 
                     smarter marketing decisions and drive sustainable growth in an increasingly competitive digital landscape.
