@@ -64,15 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				wrlds: {
-					teal: 'hsl(174, 62%, 38%)',
-					dark: 'hsl(215, 25%, 17%)',
-					light: 'hsl(210, 20%, 98%)',
-					accent: 'hsl(174, 45%, 70%)',
-					muted: 'hsl(210, 14%, 95%)'
-				},
-				theme: {
-					teal: 'hsl(var(--teal-primary))',
-					slate: 'hsl(var(--slate-dark))'
+					teal: '#9F9EA1',
+					dark: '#3F3F3F',
+					light: '#F6F6F7',
+					accent: '#C8C8C9',
+					muted: '#F1F1F1'
 				}
 			},
 			borderRadius: {

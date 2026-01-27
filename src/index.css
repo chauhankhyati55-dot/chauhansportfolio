@@ -7,40 +7,35 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 215 25% 17%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 17%;
+    --card-foreground: 0 0% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 17%;
+    --popover-foreground: 0 0% 15%;
 
-    --primary: 174 62% 38%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 0 0% 10%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 18% 93%;
-    --secondary-foreground: 215 25% 17%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 15%;
 
-    --muted: 210 14% 95%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 174 62% 38%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 0 0% 95%;
+    --accent-foreground: 0 0% 15%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 210 18% 88%;
-    --input: 210 18% 88%;
-    --ring: 174 62% 38%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 50%;
 
     --radius: 0.5rem;
-    
-    /* Custom theme colors */
-    --slate-dark: 215 25% 17%;
-    --teal-primary: 174 62% 38%;
-    --teal-light: 174 45% 70%;
   }
 }
 
