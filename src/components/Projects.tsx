@@ -12,7 +12,7 @@ import corpayAnalytics from "@/assets/corpay-analytics.jpg";
 const projects = [
   {
     id: 1,
-    title: "Marketing Analyst",
+    title: "Media Streaming Client",
     brand: "Netflix",
     description: "Leading advanced analytics initiatives for omnichannel performance optimization, A/B testing, and marketing mix modeling to drive strategic business decisions.",
     tags: ["Web Analytics", "MMM", "A/B Testing", "Attribution Modeling"],
