@@ -1,8 +1,9 @@
 import { ArrowRight, Code, Cpu, Layers, MessageSquare, BarChart, Target, ChartBar } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { motion } from "framer-motion";
+import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import businessOfficeBg from "@/assets/business-office-bg.jpg";
+import { useState, useRef } from "react";
+import khyatiPortrait from "@/assets/khyati-portrait.png";
 
 const Hero = () => {
   const isMobile = useIsMobile();
@@ -45,24 +46,43 @@ const Hero = () => {
   
   return <motion.div className="relative w-full" initial="hidden" animate="visible" variants={containerVariants}>
       <div className="banner-container bg-black relative overflow-hidden h-[50vh] sm:h-[60vh] md:h-[500px] lg:h-[550px] xl:h-[600px] w-full">
-        <div className="absolute inset-0 bg-black w-full">
-          <video 
-            autoPlay 
-            muted 
-            loop 
-            playsInline
-            className="w-full h-full object-cover opacity-70"
-            poster={businessOfficeBg}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a1040] via-[#0d1b2a] to-[#2d1b3d] w-full">
+          {/* 3D Portrait */}
+          <motion.div
+            className="absolute inset-0 flex items-center justify-center"
+            initial={{ scale: 1.1, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.2, ease: "easeOut" }}
           >
-            <source src="/analytics-meeting-hero.mp4" type="video/mp4" />
-            {/* Fallback image if video fails to load */}
-            <img 
-              src={businessOfficeBg}
-              alt="Marketing Analyst Dashboard" 
-              className={`w-full h-full object-cover opacity-70 ${isMobile ? 'object-right' : 'object-center'}`} 
-            />
-          </video>
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-white"></div>
+            <motion.div
+              className="relative w-full h-full"
+              animate={{
+                rotateY: [0, 1, -1, 0],
+                rotateX: [0, -0.5, 0.5, 0],
+                scale: [1, 1.02, 1.01, 1],
+              }}
+              transition={{
+                duration: 8,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              style={{ perspective: 1000, transformStyle: "preserve-3d" }}
+            >
+              <img 
+                src={khyatiPortrait}
+                alt="Khyati Chauhan - Marketing Analyst" 
+                className="w-full h-full object-cover object-top opacity-80"
+              />
+              {/* Ambient glow layers */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40" />
+              <motion.div 
+                className="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-transparent to-blue-500/10"
+                animate={{ opacity: [0.3, 0.6, 0.3] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+              />
+            </motion.div>
+          </motion.div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-white"></div>
         </div>
         
         <div className="banner-overlay bg-transparent pt-20 sm:pt-24 md:pt-32 w-full">
