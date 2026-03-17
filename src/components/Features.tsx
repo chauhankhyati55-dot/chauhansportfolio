@@ -88,7 +88,7 @@ const Features = () => {
   }, []);
   
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setInterval>;
     const animateProgress = () => {
       setProgressValue(0);
       interval = setInterval(() => {
