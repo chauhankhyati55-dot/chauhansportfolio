@@ -8,6 +8,7 @@ import netflixAnalytics from "@/assets/netflix-analytics.jpg";
 import ibmAnalytics from "@/assets/ibm-analytics.jpg";
 import londonHydroAnalytics from "@/assets/london-hydro-analytics.jpg";
 import corpayAnalytics from "@/assets/corpay-analytics.jpg";
+import bloomcoAnalytics from "@/assets/bloomco-analytics.jpg";
 
 const projects = [
   {
