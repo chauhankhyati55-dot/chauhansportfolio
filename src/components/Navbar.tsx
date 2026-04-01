@@ -91,10 +91,10 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <button onClick={() => { const el = document.getElementById('projects'); if (el) el.scrollIntoView({ behavior: 'smooth' }); }} className="block w-full text-left p-3 space-y-1 rounded-md hover:bg-gray-100">
+                      <a href="https://drive.google.com/file/d/1wK150JQJtev8PncKf6IFHCwDQApHR4dR/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Bloom & Co. Business Review</div>
                           <p className="text-sm text-gray-500">Quarterly revenue analysis, ROAS optimization & retention strategy</p>
-                        </button>
+                        </a>
                       </li>
                     </ul>
                   </NavigationMenuContent>
