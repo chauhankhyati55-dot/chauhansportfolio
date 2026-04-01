@@ -102,6 +102,12 @@ const Navbar = () => {
                           <p className="text-sm text-gray-500">Power BI dashboard analyzing USA wine import trends 2018-2022</p>
                         </a>
                       </li>
+                      <li>
+                        <a href="https://londonhydroapp.shinyapps.io/group12-final-dashboard/" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">London Hydro Dashboard</div>
+                          <p className="text-sm text-gray-500">Interactive Shiny dashboard for London Hydro energy analytics</p>
+                        </a>
+                      </li>
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
