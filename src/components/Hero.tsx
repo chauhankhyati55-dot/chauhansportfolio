@@ -2,7 +2,7 @@ import { ArrowRight, Code, Cpu, Layers, MessageSquare, BarChart, Target, ChartBa
 import { useIsMobile } from "@/hooks/use-mobile";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import businessOfficeBg from "@/assets/business-office-bg.jpg";
+import heroCover from "@/assets/hero-cover.jpg";
 
 const Hero = () => {
   const isMobile = useIsMobile();
