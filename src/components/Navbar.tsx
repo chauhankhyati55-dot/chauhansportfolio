@@ -97,7 +97,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="https://app.powerbi.com/links/WovlkoaK4I?ctid=3c71cbab-b5ed-4f3b-ac0d-95509d6c0e93&pbi_source=linkShare" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                        <a href="https://drive.google.com/file/d/1jFVggUNZCPZ_ZeGGkVdsqqcIQYP6xGGF/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">WineVue: Wine Industry Landscape</div>
                           <p className="text-sm text-gray-500">Power BI dashboard analyzing USA wine import trends 2018-2022</p>
                         </a>
