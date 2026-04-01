@@ -2,7 +2,7 @@ import { ArrowRight, Code, Cpu, Layers, MessageSquare, BarChart, Target, ChartBa
 import { useIsMobile } from "@/hooks/use-mobile";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import businessOfficeBg from "@/assets/business-office-bg.jpg";
+import heroCover from "@/assets/hero-cover.jpg";
 
 const Hero = () => {
   const isMobile = useIsMobile();
@@ -46,22 +46,11 @@ const Hero = () => {
   return <motion.div className="relative w-full" initial="hidden" animate="visible" variants={containerVariants}>
       <div className="banner-container bg-black relative overflow-hidden h-[50vh] sm:h-[60vh] md:h-[500px] lg:h-[550px] xl:h-[600px] w-full">
         <div className="absolute inset-0 bg-black w-full">
-          <video 
-            autoPlay 
-            muted 
-            loop 
-            playsInline
+          <img 
+            src={heroCover}
+            alt="Professional business meeting with city skyline" 
             className="w-full h-full object-cover opacity-70"
-            poster={businessOfficeBg}
-          >
-            <source src="/analytics-meeting-hero.mp4" type="video/mp4" />
-            {/* Fallback image if video fails to load */}
-            <img 
-              src={businessOfficeBg}
-              alt="Marketing Analyst Dashboard" 
-              className={`w-full h-full object-cover opacity-70 ${isMobile ? 'object-right' : 'object-center'}`} 
-            />
-          </video>
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-white"></div>
         </div>
         
