@@ -90,6 +90,12 @@ const Navbar = () => {
                           <p className="text-sm text-gray-500">Multi-touch attribution analysis for marketing channels</p>
                         </a>
                       </li>
+                      <li>
+                        <button onClick={() => { const el = document.getElementById('projects'); if (el) el.scrollIntoView({ behavior: 'smooth' }); }} className="block w-full text-left p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Bloom & Co. Business Review</div>
+                          <p className="text-sm text-gray-500">Quarterly revenue analysis, ROAS optimization & retention strategy</p>
+                        </button>
+                      </li>
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>

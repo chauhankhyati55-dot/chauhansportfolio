@@ -48,6 +48,16 @@ const projects = [
     tags: ["Project Management", "Predictive Analytics", "Revenue Forecasting", "Agile"],
     imageUrl: corpayAnalytics,
     link: "#"
+  },
+  {
+    id: 5,
+    title: "Business Review Analyst",
+    brand: "Bloom & Co.",
+    description: "Conducted quarterly business review analyzing $167K revenue across 6 months. Identified Email Marketing ROAS of $94.54, optimized channel spend, and delivered actionable retention strategies using Power BI.",
+    tags: ["Power BI", "ROAS Analysis", "Cohort Analysis", "Revenue Forecasting"],
+    imageUrl: bloomcoAnalytics,
+    link: "#",
+    details: "Comprehensive business analytics including marketing mix optimization, customer segmentation, cohort retention analysis, and strategic recommendations for spend reallocation."
   }
 ];
 
