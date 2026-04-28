@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useIsMobile } from "@/hooks/use-mobile";
-import netflixAnalytics from "@/assets/netflix-analytics.jpg";
+
 import ibmAnalytics from "@/assets/ibm-analytics.jpg";
 import londonHydroAnalytics from "@/assets/london-hydro-analytics.jpg";
 import corpayAnalytics from "@/assets/corpay-analytics.jpg";
