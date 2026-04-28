@@ -5,7 +5,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useIsMobile } from "@/hooks/use-mobile";
 
-import ibmAnalytics from "@/assets/ibm-analytics.jpg";
+import kedrionAnalytics from "@/assets/kedrion-analytics.jpg";
 import londonHydroAnalytics from "@/assets/london-hydro-analytics.jpg";
 import corpayAnalytics from "@/assets/corpay-analytics.jpg";
 import bloomcoAnalytics from "@/assets/bloomco-analytics.jpg";
@@ -13,12 +13,13 @@ import bloomcoAnalytics from "@/assets/bloomco-analytics.jpg";
 const projects = [
   {
     id: 2,
-    title: "Marketing Analyst",
-    brand: "IBM",
-    description: "Built marketing mix models using Python and SPSS, automated ETL pipelines reducing manual effort by 40 hours/month, and decreased customer attrition by 10%.",
-    tags: ["Marketing Mix Models", "Python", "ETL Automation", "Customer Retention"],
-    imageUrl: ibmAnalytics,
-    link: "#"
+    title: "Plasma Donor Analytics",
+    brand: "Kedrion Biopharma",
+    description: "Analyzed 90,000 plasma donation transactions across 14,800 donors over 29 months. Uncovered a 61% cost-per-liter increase against declining volume and proposed a retention-first segmentation framework with propensity modeling and A/B compensation testing.",
+    tags: ["R", "Retention Analytics", "Propensity Modeling", "A/B Testing"],
+    imageUrl: kedrionAnalytics,
+    link: "#",
+    details: "Built calculated KPIs (Days Since Last Visit, donor lifecycle stages) and monthly tracking on volume, cost, and retention. Identified the 183-day qualification gate as the core leverage point for donor conversion."
   },
   {
     id: 3,
