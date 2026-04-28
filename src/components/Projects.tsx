@@ -4,24 +4,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useIsMobile } from "@/hooks/use-mobile";
-import netflixAnalytics from "@/assets/netflix-analytics.jpg";
+
 import ibmAnalytics from "@/assets/ibm-analytics.jpg";
 import londonHydroAnalytics from "@/assets/london-hydro-analytics.jpg";
 import corpayAnalytics from "@/assets/corpay-analytics.jpg";
 import bloomcoAnalytics from "@/assets/bloomco-analytics.jpg";
 
 const projects = [
-  {
-    id: 1,
-    title: "Media Streaming Client",
-    brand: "Netflix",
-    description: "Leading advanced analytics initiatives for omnichannel performance optimization, A/B testing, and marketing mix modeling to drive strategic business decisions.",
-    tags: ["Web Analytics", "MMM", "A/B Testing", "Attribution Modeling"],
-    imageUrl: netflixAnalytics,
-    isFeatured: true,
-    link: "#",
-    details: "Driving data-informed decision-making with focus on customer journey optimization, retention rates, and marketing efficiency through scalable analytics strategies."
-  },
   {
     id: 2,
     title: "Marketing Analyst",
