@@ -27,16 +27,16 @@ const ContactInfo = () => {
                 className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
               />
               <h3 className="text-xl font-bold text-gray-900">Khyati Chauhan</h3>
-              <p className="text-gray-600 mb-2">Marketing Analyst</p>
-              <p className="text-gray-500 text-sm mb-4">West Haven, CT</p>
+              <p className="text-gray-600 mb-2">Marketing &amp; Data Analyst</p>
+              <p className="text-gray-500 text-sm mb-4">New Haven, CT (open to relocation)</p>
               <div className="flex flex-col space-y-3">
-                <a href="mailto:kmchauhan32@gmail.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="mailto:kchauhan.analytics@gmail.com" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Mail className="w-5 h-5 mr-2" />
-                  kmchauhan32@gmail.com
+                  kchauhan.analytics@gmail.com
                 </a>
-                <a href="tel:+12039367666" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="tel:+12038232161" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Phone className="w-5 h-5 mr-2" />
-                  +1 (203) 936-7666
+                  +1 (203) 823-2161
                 </a>
                 <a href="https://www.linkedin.com/in/khyatim03/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Linkedin className="w-5 h-5 mr-2" />
