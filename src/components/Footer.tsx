@@ -76,18 +76,19 @@ const Footer = () => {
               className="h-14 w-auto mb-6 invert"
             />
             <p className="text-gray-300 mb-4 text-sm">
-              Marketing Analyst @ Netflix | 4+ Years in Analytics
+              Marketing &amp; Data Analyst | Campaign Analytics &amp; Reporting
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">Web Analytics</span>
-              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">Predictive Modeling</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">SQL &amp; Python</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">Power BI &amp; Tableau</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">GA4</span>
               <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">A/B Testing</span>
-              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">MMM</span>
+              <span className="px-2 py-1 bg-gray-800 rounded text-xs text-gray-300">Customer Segmentation</span>
             </div>
             <div className="text-gray-400 text-sm space-y-1 mb-4">
-              <p>📍 West Haven, CT</p>
-              <p>📞 +1 (203) 936-7666</p>
-              <p>✉️ kmchauhan32@gmail.com</p>
+              <p>📍 New Haven, CT (open to relocation)</p>
+              <p>📞 +1 (203) 823-2161</p>
+              <p>✉️ kchauhan.analytics@gmail.com</p>
             </div>
             <div className="flex space-x-4">
               <a 
