@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        content: 'Moving beyond last-click attribution is essential for understanding true campaign impact. Multi-touch attribution models like time-decay, position-based, or data-driven attribution provide a more accurate picture of how each marketing touchpoint contributes to conversions. At Netflix, we implemented a custom Markov Chain attribution model that revealed display ads were driving 23% more assisted conversions than previously measured.'
+        content: 'Moving beyond last-click attribution is essential for understanding true campaign impact. Multi-touch attribution models like time-decay, position-based, or data-driven attribution provide a more accurate picture of how each marketing touchpoint contributes to conversions. In a recent streaming-client engagement, I implemented a custom Markov Chain attribution model that revealed display ads were driving 23% more assisted conversions than previously measured.'
       },
       {
         type: 'table',
@@ -296,7 +296,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'paragraph',
-        content: 'Creating effective Power BI dashboards requires a deep understanding of both technical capabilities and business needs. The best dashboards tell a story with data and enable quick decision-making. In this comprehensive guide, I share the principles and techniques I have developed through building dozens of executive dashboards at Netflix, IBM, and London Hydro.'
+        content: 'Creating effective Power BI dashboards requires a deep understanding of both technical capabilities and business needs. The best dashboards tell a story with data and enable quick decision-making. In this comprehensive guide, I share the principles and techniques I have developed through building dozens of executive dashboards across client engagements in streaming, biopharma, and utilities.'
       },
       {
         type: 'heading',
