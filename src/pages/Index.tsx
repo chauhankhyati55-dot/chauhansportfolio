@@ -21,8 +21,8 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Khyati Chauhan - Marketing Analyst" 
-        description="Strategic Marketing Analyst with 4+ years of experience in advanced analytics, omnichannel performance, predictive modeling, and AI-driven insights. Expert in web analytics, Marketing Mix Modeling, and data visualization."
+        title="Khyati Chauhan - Marketing & Data Analyst" 
+        description="Marketing & Data Analyst specializing in campaign analytics, customer segmentation, dashboarding, and A/B testing. Skilled in SQL, Python, Power BI, Tableau, GA4, HubSpot, and Salesforce."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
         keywords={['marketing analyst', 'data analytics', 'power bi', 'campaign optimization', 'marketing analytics', 'business intelligence', 'predictive modeling']}
       />
