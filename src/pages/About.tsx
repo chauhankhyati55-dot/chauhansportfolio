@@ -39,7 +39,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                Marketing Analytics Professional specializing in data-driven insights and strategic decision making for businesses.
+                Marketing & Data Analyst specializing in campaign analytics, customer segmentation, and reporting that guides business decisions.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
