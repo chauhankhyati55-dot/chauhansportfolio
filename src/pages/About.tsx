@@ -111,7 +111,7 @@ const About = () => {
                     narratives that resonate with stakeholders and drive strategic action.
                   </p>
                   <p className="text-gray-600">
-                    Currently based in West Haven, CT, I continue to help businesses leverage data analytics to make 
+                    Currently based in New Haven, CT and open to relocation, I continue to help businesses leverage data analytics to make 
                     smarter marketing decisions and drive sustainable growth in an increasingly competitive digital landscape.
                   </p>
                 </div>
