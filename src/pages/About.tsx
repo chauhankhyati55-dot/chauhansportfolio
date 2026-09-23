@@ -97,14 +97,14 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">My Journey</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    My career in marketing analytics began with a passion for understanding consumer behavior through data. 
-                    I've worked across various industries, helping businesses optimize their marketing strategies and 
-                    improve customer acquisition and retention.
+                    My career began in social media marketing, where I learned how audience behaviour shows up in
+                    engagement data. That curiosity led me into analytics, where I now work with customer, sales, and
+                    campaign datasets using SQL, Python, and Excel.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    Throughout my experience, I've specialized in campaign performance analysis, customer segmentation, 
-                    A/B testing, and marketing attribution modeling. I've helped companies increase their marketing ROI 
-                    by identifying high-performing channels and optimizing budget allocation.
+                    Today I build Power BI and Tableau dashboards, run customer segmentation and RFM analysis, track
+                    funnels in GA4, HubSpot, and Salesforce, and evaluate A/B tests — translating the results into clear
+                    recommendations for both technical and non-technical stakeholders.
                   </p>
                   <p className="text-gray-600 mb-4">
                     Passionate about innovative storytelling through data, I transform complex analytics into compelling 
